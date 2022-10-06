@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Warning:  transitional DOCTYPE in source .x3d file -->
+<!DOCTYPE X3D PUBLIC "http://www.web3d.org/specifications/x3d-3.0.dtd" "file:///www.web3d.org/TaskGroups/x3d/translation/x3d-3.0.dtd">
+<X3D version="3.1" profile="Full">
+ <head>
+   <meta name="title" content="test\A3_GeoInlineToX3D.x3d"/>
+   <meta name="description" content="*enter description here, short-sentence summaries preferred*"/>
+   <meta name="creator" content="*enter name of original author here*"/>
+   <meta name="translator" content="*if manually translating VRML-to-X3D, enter name of person translating here*"/>
+   <meta name="created" content="*enter date of initial version here*"/>
+   <meta name="translated" content="03 December 2011"/>
+   <meta name="modified"    content="03 December 2011"/>
+   <meta name="version" content="*enter version here*"/>
+   <meta name="reference" content="*enter reference citation or relative/online url here*"/>
+   <meta name="reference" content="*enter additional url/bibliographic reference information here*"/>
+   <meta name="requires" content="*enter reference resource here if required to support function, delivery, or coherence of content*"/>
+   <meta name="rights" content="*enter copyright information here* Example:  Copyright (c) Web3D Consortium Inc. 2006"/>
+   <meta name="drawing" content="*enter drawing filename/url here*"/>
+   <meta name="image" content="*enter image filename/url here*"/>
+   <meta name="MovingImage" content="*enter movie filename/url here*"/>
+   <meta name="photo" content="*enter photo filename/url here*"/>
+   <meta name="subject" content="*enter subject keywords here*"/>
+   <meta name="accessRights" content="*enter permission statements or url here*"/>
+   <meta name="warning" content="*insert any known warnings, bugs or errors here*"/>
+   <meta name="identifier" content="http://*enter online url address for this file here*/test\A3_GeoInlineToX3D.x3d"/>
+   <meta name="generator" content="Vrml97ToX3dNist, http://ovrt.nist.gov/v2_x3d.html"/>
+   <meta name="license" content="../../license.html"/>
+ </head>
+ <Scene>
+  <NavigationInfo  type='"EXAMINE" "ANY"'/>
+  <Group >
+      <Inline DEF="TestInline" url='"Box.x3d" "http://www.web3d.org/x3d/content/examples/Basic/GeoSpatial/Box.x3d" "Box.wrl" "http://www.web3d.org/x3d/content/examples/Basic/GeoSpatial/Box.wrl"' load="false">
+      </Inline>
+  </Group>
+  <Transform  translation="2.0 1.0 0.0" scale="0.5 0.5 0.5">
+      <TouchSensor  DEF="LoadTrigger" />
+      <Shape >
+          <Appearance >
+              <Material  diffuseColor="1.0 0.0 0.0"/>
+          </Appearance>
+          <Cone />
+      </Shape>
+  </Transform>
+  <Transform  translation="1.5 1.2 0.3" scale="0.5 0.5 0.5">
+      <Shape >
+          <Appearance >
+              <Material  diffuseColor="0.0 0.6 0.3"/>
+          </Appearance>
+          <Text  string='"Load Cube"' length=" 0.0">
+              <FontStyle />
+          </Text>
+      </Shape>
+  </Transform>
+  <Transform  translation="2.0 -1.0 0.0" scale="0.5 0.5 0.5" rotation="1.0 0.0 0.0  3.1415">
+      <TouchSensor  DEF="UnLoadTrigger" />
+      <Shape >
+          <Appearance >
+              <Material  diffuseColor="0.0 0.0 1.0"/>
+          </Appearance>
+          <Cone />
+      </Shape>
+  </Transform>
+  <Transform  translation="1.5 -1.5 0.3" scale="0.5 0.5 0.5">
+      <Shape >
+          <Appearance >
+              <Material  diffuseColor="0.6 0.3 0.0"/>
+          </Appearance>
+          <Text  string='"Unload Cube"' length=" 0.0">
+              <FontStyle />
+          </Text>
+      </Shape>
+  </Transform>
+  <Script DEF="ReturnTrue">
+    <field name="value_changed" type="SFBool" accessType="outputOnly"/>
+    <field name="set_value" type="SFBool" accessType="inputOnly"/>
+    <![CDATA[
+javascript:
+
+function set_value( value ) {
+  if ( value == true ) value_changed = true;
+}
+
+    
+
+    ]]>
+  </Script>
+  <Script DEF="ReturnFalse">
+    <field name="value_changed" type="SFBool" accessType="outputOnly"/>
+    <field name="set_value" type="SFBool" accessType="inputOnly"/>
+    <![CDATA[
+javascript:
+
+function set_value( value ) {
+  if ( value == true ) value_changed = false;
+}
+
+    
+
+    ]]>
+  </Script>
+<ROUTE fromNode="LoadTrigger" fromField="isActive" toNode="ReturnTrue" toField="set_value"/>
+<ROUTE fromNode="ReturnTrue" fromField="value_changed" toNode="TestInline" toField="set_load"/>
+<ROUTE fromNode="UnLoadTrigger" fromField="isActive" toNode="ReturnFalse" toField="set_value"/>
+<ROUTE fromNode="ReturnFalse" fromField="value_changed" toNode="TestInline" toField="set_load"/>
+ </Scene>
+</X3D>

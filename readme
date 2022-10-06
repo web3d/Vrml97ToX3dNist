@@ -1,0 +1,29 @@
+
+	   The translator v2x3d version 0.1 (07/24/2001)
+          ----------------------------------------------
+
+		by Qiming Wang
+		Visualization and Usability Group
+		Information Technology Lab.
+		NIST
+
+
+This is a software to tranlate vrml97 file to xml file. The translation is
+based on the specification of "x3d-compact.dtd".
+
+After extracting the v2x3d_0.1.tar, you will have a v2x3d_0.1.jar and  
+directories of "javasrc", "test". In "test" directory, there is a C shell 
+"v2x3dtest" and a pc batch file "v2x3dtest.bat", and some examples. 
+In "javasrc" directory, there are source java programs. 
+
+To run the translator, simply go to the directory "test", and type:
+
+v2x3dtest vrml97file xmlfile
+
+At present it is only work for local file.
+
+The changes of this version (0.1) :
+(1) Generate x3d-compact.dtd X3d file.
+(2) Fixed the bug of DEF/USE.
+(3) Moved all PROTO and EXTERNPROTO declarations to the begining.
+ 

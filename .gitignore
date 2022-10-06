@@ -1,0 +1,9 @@
+
+.DS_Store
+
+.svn
+.vscode
+
+jars/
+*.jar
+*.zip

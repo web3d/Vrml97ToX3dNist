@@ -1,0 +1,58 @@
+#!/bin/sh
+#
+# makev2x3d
+# script to compile iicm.vrml.vrml2x3d packages
+#
+
+CLASSPATH=`pwd`/classes:`pwd`/javasrc:"$CLASSPATH"
+export CLASSPATH
+
+# you may specify an absolute path or options to javac
+javac="javac"
+
+# javac is supposed to create non-existent directories itself
+if [ ! -d classes ]
+then
+   mkdir classes
+fi
+
+set -x
+
+# Parser Utilities: package iicm.vrml.pwutils
+#$javac -d classes javasrc/iicm/vrml/pwutils/UtilTest.java
+
+# VRML 2.0 Parser: package iicm.vrml.pw
+#$javac -d classes javasrc/iicm/vrml/pw/GroupNode.java
+# pwsample: pw Parser demo application
+#$javac -d classes javasrc/iicm/vrml/pwsample/ParserDemo.java
+#$javac -d classes javasrc/iicm/vrml/pw/Field.java
+#$javac -d classes javasrc/iicm/vrml/pw/Node.java
+#$javac -d classes javasrc/iicm/vrml/pw/ProtoNode.java
+#$javac -d classes javasrc/iicm/vrml/pw/GroupNode.java
+$javac -d classes javasrc/iicm/vrml/vrml2x3d/vrml2x3d.java
+#$javac -d classes javasrc/iicm/vrml/pw/ProtoInstance.java
+#$javac -d classes javasrc/iicm/vrml/pw/ProtoNode.java
+#$javac -d classes javasrc/iicm/vrml/pw/Field.java
+#$javac -d classes javasrc/iicm/vrml/pw/Node.java
+#$javac -d classes javasrc/iicm/vrml/pw/Script.java
+#$javac -d classes javasrc/iicm/vrml/pw/VRMLparser.java
+#$javac -d classes javasrc/iicm/vrml/pw/MFNode.java
+#$javac -d classes javasrc/iicm/vrml/pw/MFRotation.java
+#$javac -d classes javasrc/iicm/vrml/pw/MFString.java
+#$javac -d classes javasrc/iicm/vrml/pw/MFVec2f.java
+#$javac -d classes javasrc/iicm/vrml/pw/MFVec3f.java
+#$javac -d classes javasrc/iicm/vrml/pw/ProtoNode.java
+#$javac -d classes javasrc/iicm/vrml/pw/SFBool.java
+#$javac -d classes javasrc/iicm/vrml/pw/SFColor.java
+#$javac -d classes javasrc/iicm/vrml/pw/SFFloat.java
+#$javac -d classes javasrc/iicm/vrml/pw/SFImage.java
+#$javac -d classes javasrc/iicm/vrml/pw/SFInt32.java
+#$javac -d classes javasrc/iicm/vrml/pw/SFNode.java
+#$javac -d classes javasrc/iicm/vrml/pw/SFRotation.java
+#$javac -d classes javasrc/iicm/vrml/pw/SFString.java
+#$javac -d classes javasrc/iicm/vrml/pw/SFTime.java
+#$javac -d classes javasrc/iicm/vrml/pw/SFVec3f.java
+#$javac -d classes javasrc/iicm/vrml/pw/SFVec2f.java
+
+
+

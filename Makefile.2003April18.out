@@ -1,0 +1,1263 @@
+> cd C:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist
+> make all
+
+
+C:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist>make all 
+date
+Fri Apr 18 06:34:26  2003
+java  -version
+java version "1.3.1_07"
+Java(TM) 2 Runtime Environment, Standard Edition (build 1.3.1_07-b02)
+Java HotSpot(TM) Client VM (build 1.3.1_07-b02, mixed mode)
+cd C:/Ibm/Xeena;  pwd;  make all
+/cygdrive/c/Ibm/Xeena
+make[1]: Entering directory `/cygdrive/c/Ibm/Xeena'
+Compile, then make javadoc documentations
+--------------------------------------------------------------------------------------
+make -i build
+make[2]: Entering directory `/cygdrive/c/Ibm/Xeena'
+java -version
+java version "1.3.1_07"
+Java(TM) 2 Runtime Environment, Standard Edition (build 1.3.1_07-b02)
+Java HotSpot(TM) Client VM (build 1.3.1_07-b02, mixed mode)
+make -i clean-classes
+make[3]: Entering directory `/cygdrive/c/Ibm/Xeena'
+rm -rf C:/IBM/XEENA/lib/com
+make[3]: Leaving directory `/cygdrive/c/Ibm/Xeena'
+javac -classpath "C:/IBM/XEENA/lib/xmleditor.jar;C:/IBM/XEENA/lib/xerces.jar;C:/IBM/XEENA/lib/xalan.jar;C:/IBM/XEENA/lib/swingall.jar;C:/IBM/XEENA/lib/jgl3.1.0.jar;C:/IBM/XEENA/lib/Vrml97ToX3dNist.jar;C:\www.web3d.org\TaskGroups\x3d\translation\examples\StudentProjects\Race20\java;.;c:\vrtp\dis-java-vrml.jar;C:\Program Files\GeoVRML\1.0\classes\geovrml.jar;C:\Program Files\Java\j2re1.4.0\QTJava.zip;C:/jdk1.3.1_07/jaxp/dom.jar;C:/jdk1.3.1_07/jaxp/jaxp-api.jar;C:/jdk1.3.1_07/jaxp/sax.jar;C:/jdk1.3.1_07/jaxp/xalan.jar;C:/jdk1.3.1_07/jaxp/xercesImpl.jar;C:/jdk1.3.1_07/jaxp/xsltc.jar;C:\Program Files\Altova\xmlspy\XMLSpyInterface.jar" -verbose -deprecation -d C:/IBM/XEENA/lib -g \
+	src/com/ibm/hrl/xmleditor/extension/vrml/*.java
+[parsing started src/com/ibm/hrl/xmleditor/extension/vrml/VrmlImporter.java]
+[parsing completed 130ms]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/text/SimpleDateFormat.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(javax/swing/filechooser/FileFilter.class)]
+[loading C:\IBM\XEENA\lib\xerces.jar(org/w3c/dom/Document.class)]
+[loading C:\IBM\XEENA\lib\xerces.jar(org/w3c/dom/DocumentType.class)]
+[loading C:\IBM\XEENA\lib\xerces.jar(org/w3c/dom/Element.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/lang/Object.class)]
+[loading C:\IBM\XEENA\lib\xmleditor.jar(com/ibm/hrl/xmleditor/extension/importer/XMLImporter.class)]
+[loading C:\IBM\XEENA\lib\xmleditor.jar(com/ibm/hrl/xmleditor/extension/Extension.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(javax/swing/JTextField.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/awt/Frame.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(javax/swing/JPanel.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(javax/swing/Icon.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/lang/String.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/io/File.class)]
+[loading C:\IBM\XEENA\lib\Vrml97ToX3dNist.jar(iicm/vrml/pw/VRMLparser.class)]
+[loading C:\IBM\XEENA\lib\xmleditor.jar(com/ibm/hrl/xmleditor/extension/XMLEditorContext.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/lang/Class.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/util/Hashtable.class)]
+[checking com.ibm.hrl.xmleditor.extension.vrml.VrmlImporter]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(javax/swing/JFileChooser.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/lang/System.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/util/Properties.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/util/Dictionary.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(javax/swing/filechooser/FileSystemView.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(javax/swing/JComponent.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/awt/Container.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/awt/Component.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/awt/Window.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/io/FileInputStream.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/io/FileDescriptor.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/io/InputStream.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/io/FileNotFoundException.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/lang/Throwable.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/io/IOException.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/lang/Exception.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/io/PrintStream.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/io/FilterOutputStream.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/io/OutputStream.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/awt/FlowLayout.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/awt/LayoutManager.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(javax/swing/JLabel.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/io/Serializable.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/lang/Comparable.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/awt/PopupMenu.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(javax/swing/text/JTextComponent.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(javax/swing/ImageIcon.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/io/BufferedInputStream.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/io/FilterInputStream.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/io/ByteArrayOutputStream.class)]
+[loading C:\IBM\XEENA\lib\xerces.jar(org/w3c/dom/Node.class)]
+[loading C:\IBM\XEENA\lib\xerces.jar(org/w3c/dom/Comment.class)]
+[loading C:\IBM\XEENA\lib\xerces.jar(org/w3c/dom/CharacterData.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/util/StringTokenizer.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/util/Date.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/text/DateFormat.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/text/Format.class)]
+[loading C:\IBM\XEENA\lib\Vrml97ToX3dNist.jar(iicm/vrml/pw/GroupNode.class)]
+[loading C:\IBM\XEENA\lib\Vrml97ToX3dNist.jar(iicm/vrml/pw/SceneTraverser.class)]
+[loading C:\IBM\XEENA\lib\Vrml97ToX3dNist.jar(iicm/vrml/pw/Traverser.class)]
+[loading C:\IBM\XEENA\lib\Vrml97ToX3dNist.jar(iicm/vrml/pw/Node.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/util/Enumeration.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/lang/Error.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/lang/RuntimeException.class)]
+[loading C:\IBM\XEENA\lib\xerces.jar(org/w3c/dom/DOMException.class)]
+[loading c:\jdk1.3.1_07\jre\lib\rt.jar(java/lang/StringBuffer.class)]
+[wrote C:\IBM\XEENA\lib\com\ibm\hrl\xmleditor\extension\vrml\VrmlImporter$VrmlFileFilter.class]
+[wrote C:\IBM\XEENA\lib\com\ibm\hrl\xmleditor\extension\vrml\VrmlImporter.class]
+[total 1001ms]
+make[2]: Leaving directory `/cygdrive/c/Ibm/Xeena'
+--------------------------------------------------------------------------------------
+make -i javadoc
+make[2]: Entering directory `/cygdrive/c/Ibm/Xeena'
+pwd; javadoc -version -author -package                    \
+	-windowtitle "Xeena 1.1 Extension API Specification:"  \
+	-doctitle "<center> Xeena 1.1 Extension API Javadoc"   \
+	-classpath "src;C:/IBM/XEENA/lib/xmleditor.jar;C:/IBM/XEENA/lib/xerces.jar;C:/IBM/XEENA/lib/xalan.jar;C:/IBM/XEENA/lib/swingall.jar;C:/IBM/XEENA/lib/jgl3.1.0.jar;C:/IBM/XEENA/lib/Vrml97ToX3dNist.jar;C:\www.web3d.org\TaskGroups\x3d\translation\examples\StudentProjects\Race20\java;.;c:\vrtp\dis-java-vrml.jar;C:\Program Files\GeoVRML\1.0\classes\geovrml.jar;C:\Program Files\Java\j2re1.4.0\QTJava.zip;C:/jdk1.3.1_07/jaxp/dom.jar;C:/jdk1.3.1_07/jaxp/jaxp-api.jar;C:/jdk1.3.1_07/jaxp/sax.jar;C:/jdk1.3.1_07/jaxp/xalan.jar;C:/jdk1.3.1_07/jaxp/xercesImpl.jar;C:/jdk1.3.1_07/jaxp/xsltc.jar;C:\Program Files\Altova\xmlspy\XMLSpyInterface.jar"                    \
+	-d vrmlExtensionDoc                                    \
+	com.ibm.hrl.xmleditor.extension.vrml
+/cygdrive/c/Ibm/Xeena
+Loading source files for package com.ibm.hrl.xmleditor.extension.vrml...
+Constructing Javadoc information...
+Building tree for all the packages and classes...
+Building index for all the packages and classes...
+Generating vrmlExtensionDoc\overview-tree.html...
+Generating vrmlExtensionDoc\index-all.html...
+Generating vrmlExtensionDoc\deprecated-list.html...
+Building index for all classes...
+Generating vrmlExtensionDoc\allclasses-frame.html...
+Generating vrmlExtensionDoc\index.html...
+Generating vrmlExtensionDoc\packages.html...
+Generating vrmlExtensionDoc\com\ibm\hrl\xmleditor\extension\vrml\package-summary.html...
+Generating vrmlExtensionDoc\com\ibm\hrl\xmleditor\extension\vrml\package-tree.html...
+Generating vrmlExtensionDoc\com\ibm\hrl\xmleditor\extension\vrml\package-frame.html...
+Generating vrmlExtensionDoc\com\ibm\hrl\xmleditor\extension\vrml\VrmlImporter.html...
+Generating vrmlExtensionDoc\com\ibm\hrl\xmleditor\extension\vrml\VrmlImporter.VrmlFileFilter.html...
+Generating vrmlExtensionDoc\serialized-form.html...
+Generating vrmlExtensionDoc\package-list...
+Generating vrmlExtensionDoc\help-doc.html...
+Generating vrmlExtensionDoc\stylesheet.css...
+make[2]: Leaving directory `/cygdrive/c/Ibm/Xeena'
+--------------------------------------------------------------------------------------
+make -i compress
+make[2]: Entering directory `/cygdrive/c/Ibm/Xeena'
+cd lib; pwd; jar -cvf Vrml97ToX3dImport.jar \
+	com/ibm/hrl/xmleditor/extension/vrml/*.class	\
+	cube.gif
+/cygdrive/c/Ibm/Xeena/lib
+adding: META-INF/ (in=0) (out=0) (stored 0%)
+adding: META-INF/MANIFEST.MF (in=56) (out=56) (stored 0%)
+adding: com/ibm/hrl/xmleditor/extension/vrml/VrmlImporter$VrmlFileFilter.class (in=3113) (out=1502) (deflated 51%)
+adding: com/ibm/hrl/xmleditor/extension/vrml/VrmlImporter.class (in=9600) (out=4689) (deflated 51%)
+adding: cube.gif (in=175) (out=164) (deflated 6%)
+Total:
+------
+(in = 12933) (out = 7126) (deflated 44%)
+make[2]: Leaving directory `/cygdrive/c/Ibm/Xeena'
+--------------------------------------------------------------------------------------
+date
+Fri Apr 18 06:34:31  2003
+need to save current output as file MakeBuild.out:
+ls -l MakeBuild.out
+-rwx------    1 brutzman None        17901 Jul  1  2002 MakeBuild.out
+make all complete.
+make[1]: Leaving directory `/cygdrive/c/Ibm/Xeena'
+pwd
+/cygdrive/c/www.web3d.org/TaskGroups/x3d/translation/Vrml97ToX3dNist
+javac -classpath "javasrc;C:\www.web3d.org\TaskGroups\x3d\translation\examples\StudentProjects\Race20\java;.;c:\vrtp\dis-java-vrml.jar;C:\Program Files\GeoVRML\1.0\classes\geovrml.jar;C:\Program Files\Java\j2re1.4.0\QTJava.zip;C:/jdk1.3.1_07/jaxp/dom.jar;C:/jdk1.3.1_07/jaxp/jaxp-api.jar;C:/jdk1.3.1_07/jaxp/sax.jar;C:/jdk1.3.1_07/jaxp/xalan.jar;C:/jdk1.3.1_07/jaxp/xercesImpl.jar;C:/jdk1.3.1_07/jaxp/xsltc.jar;C:\Program Files\Altova\xmlspy\XMLSpyInterface.jar" -d class -deprecation -g \
+	javasrc/iicm/ge3d/*.java \
+	javasrc/iicm/utils3d/*.java \
+	javasrc/iicm/vrml/pw/*.java \
+	javasrc/iicm/vrml/pwutils/*.java \
+	javasrc/iicm/vrml/vrml2x3d/*.java
+javasrc/iicm/ge3d/OGLCanvas.java:65: warning: preferredSize() in java.awt.Component has been deprecated
+  public Dimension preferredSize ()
+                   ^
+javasrc/iicm/ge3d/OGLCanvas.java:72: warning: minimumSize() in java.awt.Component has been deprecated
+  public Dimension minimumSize ()
+                   ^
+javasrc/iicm/ge3d/OGLCanvas.java:147: warning: mouseEnter(java.awt.Event,int,int) in java.awt.Component has been deprecated
+  public boolean mouseEnter (Event e, int x, int y)
+                 ^
+javasrc/iicm/ge3d/OGLCanvas.java:159: warning: mouseExit(java.awt.Event,int,int) in java.awt.Component has been deprecated
+  public boolean mouseExit (Event e, int x, int y)
+                 ^
+javasrc/iicm/vrml/pw/StrTokenizer.java:445: warning: getBytes(int,int,byte[],int) in java.lang.String has been deprecated
+      s.getBytes (1, slen, backbuf_, start);  // without first char
+       ^
+javasrc/iicm/vrml/pw/StrTokenizer.java:456: warning: getBytes(int,int,byte[],int) in java.lang.String has been deprecated
+      s.getBytes (1, slen, newbuf, 0);  // without first char
+       ^
+6 warnings
+make -i mkdir
+make[1]: Entering directory `/cygdrive/c/www.web3d.org/TaskGroups/x3d/translation/Vrml97ToX3dNist'
+mkdir javadoc
+mkdir: cannot create directory `javadoc': File exists
+make[1]: [mkdir] Error 1 (ignored)
+make[1]: Leaving directory `/cygdrive/c/www.web3d.org/TaskGroups/x3d/translation/Vrml97ToX3dNist'
+make -i doc
+make[1]: Entering directory `/cygdrive/c/www.web3d.org/TaskGroups/x3d/translation/Vrml97ToX3dNist'
+javadoc -classpath javasrc -d javadoc -author -version -package			\
+-windowtitle "NIST Translator: VRML 97 to X3D Javadoc"			\
+	-doctitle "<center>NIST Translator: VRML 97 to X3D Javadoc</center>"	\
+	iicm.ge3d		\
+	iicm.utils3d		\
+	iicm.vrml.pw		\
+	iicm.vrml.pwutils	\
+	iicm.vrml.vrml2x3d
+Loading source files for package iicm.ge3d...
+Loading source files for package iicm.utils3d...
+Loading source files for package iicm.vrml.pw...
+Loading source files for package iicm.vrml.pwutils...
+Loading source files for package iicm.vrml.vrml2x3d...
+Constructing Javadoc information...
+javadoc: warning - Import not found: org.w3c.dom.Document - ignoring!
+javadoc: warning - Import not found: org.w3c.dom.Element - ignoring!
+javadoc: warning - Import not found: org.w3c.dom.CDATASection - ignoring!
+javadoc: warning - Cannot find class org.w3c.dom.Document
+javadoc: warning - Cannot find class org.w3c.dom.Element
+Building tree for all the packages and classes...
+Building index for all the packages and classes...
+Generating javadoc\overview-tree.html...
+Generating javadoc\index-all.html...
+javadoc: warning - iicm.vrml.pw.Field.readFieldValue(VRMLparser): Tag @see: malformed: "#readISdeclaration, #readValue"
+javadoc: warning - iicm.vrml.pw.VRMLparser.readStream(): Tag @see: malformed: "readHeader, readBody"
+Generating javadoc\deprecated-list.html...
+Building index for all classes...
+Generating javadoc\allclasses-frame.html...
+Generating javadoc\index.html...
+Generating javadoc\packages.html...
+Generating javadoc\overview-summary.html...
+Generating javadoc\overview-frame.html...
+Generating javadoc\iicm\ge3d\package-summary.html...
+Generating javadoc\iicm\ge3d\package-tree.html...
+Generating javadoc\iicm\ge3d\package-frame.html...
+Generating javadoc\iicm\utils3d\package-summary.html...
+Generating javadoc\iicm\utils3d\package-tree.html...
+Generating javadoc\iicm\utils3d\package-frame.html...
+Generating javadoc\iicm\vrml\pw\package-summary.html...
+Generating javadoc\iicm\vrml\pw\package-tree.html...
+Generating javadoc\iicm\vrml\pw\package-frame.html...
+Generating javadoc\iicm\vrml\pwutils\package-summary.html...
+Generating javadoc\iicm\vrml\pwutils\package-tree.html...
+Generating javadoc\iicm\vrml\pwutils\package-frame.html...
+Generating javadoc\iicm\vrml\vrml2x3d\package-summary.html...
+Generating javadoc\iicm\vrml\vrml2x3d\package-tree.html...
+Generating javadoc\iicm\vrml\vrml2x3d\package-frame.html...
+Generating javadoc\iicm\ge3d\GE3D.html...
+Generating javadoc\iicm\ge3d\OGLCanvas.html...
+Generating javadoc\iicm\utils3d\Camera.html...
+Generating javadoc\iicm\utils3d\Hitpoint.html...
+Generating javadoc\iicm\utils3d\Mat4f.html...
+Generating javadoc\iicm\utils3d\PickUtil.html...
+Generating javadoc\iicm\utils3d\Quaternion.html...
+Generating javadoc\iicm\utils3d\QuatTest.html...
+Generating javadoc\iicm\utils3d\Ray.html...
+Generating javadoc\iicm\utils3d\Vec3f.html...
+Generating javadoc\iicm\vrml\pw\GotEventCallback.html...
+Generating javadoc\iicm\vrml\pw\ParserOutput.html...
+Generating javadoc\iicm\vrml\pw\PointerSensor.html...
+Generating javadoc\iicm\vrml\pw\Anchor.html...
+Generating javadoc\iicm\vrml\pw\Appearance.html...
+Generating javadoc\iicm\vrml\pw\AppearNode.html...
+Generating javadoc\iicm\vrml\pw\AudioClip.html...
+Generating javadoc\iicm\vrml\pw\Background.html...
+Generating javadoc\iicm\vrml\pw\Billboard.html...
+Generating javadoc\iicm\vrml\pw\Bindable.html...
+Generating javadoc\iicm\vrml\pw\Box.html...
+Generating javadoc\iicm\vrml\pw\Collision.html...
+Generating javadoc\iicm\vrml\pw\Color.html...
+Generating javadoc\iicm\vrml\pw\ColorInterpolator.html...
+Generating javadoc\iicm\vrml\pw\Common.html...
+Generating javadoc\iicm\vrml\pw\Cone.html...
+Generating javadoc\iicm\vrml\pw\Coordinate.html...
+Generating javadoc\iicm\vrml\pw\CoordinateInterpolator.html...
+Generating javadoc\iicm\vrml\pw\CType.html...
+Generating javadoc\iicm\vrml\pw\Cylinder.html...
+Generating javadoc\iicm\vrml\pw\CylinderSensor.html...
+Generating javadoc\iicm\vrml\pw\Decompression.html...
+Generating javadoc\iicm\vrml\pw\DecompressionStream.html...
+Generating javadoc\iicm\vrml\pw\DefParserOutput.html...
+Generating javadoc\iicm\vrml\pw\DirectionalLight.html...
+Generating javadoc\iicm\vrml\pw\ElevationGrid.html...
+Generating javadoc\iicm\vrml\pw\Extrusion.html...
+Generating javadoc\iicm\vrml\pw\Field.html...
+Tag @see: Malformed: #readISdeclaration, #readValue
+Generating javadoc\iicm\vrml\pw\FieldNames.html...
+Generating javadoc\iicm\vrml\pw\Fog.html...
+Generating javadoc\iicm\vrml\pw\FontStyle.html...
+Generating javadoc\iicm\vrml\pw\Geometry.html...
+Generating javadoc\iicm\vrml\pw\Group.html...
+Generating javadoc\iicm\vrml\pw\GroupNode.html...
+Generating javadoc\iicm\vrml\pw\HeaderInfo.html...
+Generating javadoc\iicm\vrml\pw\ImageTexture.html...
+Generating javadoc\iicm\vrml\pw\IndexedFaceSet.html...
+Generating javadoc\iicm\vrml\pw\IndexedLineSet.html...
+Generating javadoc\iicm\vrml\pw\Inline.html...
+Generating javadoc\iicm\vrml\pw\Interpolator.html...
+Generating javadoc\iicm\vrml\pw\Light.html...
+Generating javadoc\iicm\vrml\pw\LOD.html...
+Generating javadoc\iicm\vrml\pw\Material.html...
+Generating javadoc\iicm\vrml\pw\MFColor.html...
+Generating javadoc\iicm\vrml\pw\MFFloat.html...
+Generating javadoc\iicm\vrml\pw\MFInt32.html...
+Generating javadoc\iicm\vrml\pw\MFNode.html...
+Generating javadoc\iicm\vrml\pw\MFRotation.html...
+Generating javadoc\iicm\vrml\pw\MFString.html...
+Generating javadoc\iicm\vrml\pw\MFVec2f.html...
+Generating javadoc\iicm\vrml\pw\MFVec3f.html...
+Generating javadoc\iicm\vrml\pw\MovieTexture.html...
+Generating javadoc\iicm\vrml\pw\MultiField.html...
+Generating javadoc\iicm\vrml\pw\NavigationInfo.html...
+Generating javadoc\iicm\vrml\pw\Node.html...
+Generating javadoc\iicm\vrml\pw\NodeNames.html...
+Generating javadoc\iicm\vrml\pw\Normal.html...
+Generating javadoc\iicm\vrml\pw\NormalInterpolator.html...
+Generating javadoc\iicm\vrml\pw\OrientationInterpolator.html...
+Generating javadoc\iicm\vrml\pw\PixelTexture.html...
+Generating javadoc\iicm\vrml\pw\PlaneSensor.html...
+Generating javadoc\iicm\vrml\pw\PointLight.html...
+Generating javadoc\iicm\vrml\pw\PointSet.html...
+Generating javadoc\iicm\vrml\pw\PositionInterpolator.html...
+Generating javadoc\iicm\vrml\pw\ProtoInstance.html...
+Generating javadoc\iicm\vrml\pw\ProtoNode.html...
+Generating javadoc\iicm\vrml\pw\ProximitySensor.html...
+Generating javadoc\iicm\vrml\pw\RouteNode.html...
+Generating javadoc\iicm\vrml\pw\ScalarInterpolator.html...
+Generating javadoc\iicm\vrml\pw\SceneTraverser.html...
+Generating javadoc\iicm\vrml\pw\Script.html...
+Generating javadoc\iicm\vrml\pw\Sensor.html...
+Generating javadoc\iicm\vrml\pw\SFBool.html...
+Generating javadoc\iicm\vrml\pw\SFColor.html...
+Generating javadoc\iicm\vrml\pw\SFFloat.html...
+Generating javadoc\iicm\vrml\pw\SFImage.html...
+Generating javadoc\iicm\vrml\pw\SFInt32.html...
+Generating javadoc\iicm\vrml\pw\SFNode.html...
+Generating javadoc\iicm\vrml\pw\SFRotation.html...
+Generating javadoc\iicm\vrml\pw\SFString.html...
+Generating javadoc\iicm\vrml\pw\SFTime.html...
+Generating javadoc\iicm\vrml\pw\SFVec2f.html...
+Generating javadoc\iicm\vrml\pw\SFVec3f.html...
+Generating javadoc\iicm\vrml\pw\Shape.html...
+Generating javadoc\iicm\vrml\pw\Sound.html...
+Generating javadoc\iicm\vrml\pw\Sphere.html...
+Generating javadoc\iicm\vrml\pw\SphereSensor.html...
+Generating javadoc\iicm\vrml\pw\SpotLight.html...
+Generating javadoc\iicm\vrml\pw\StrTokenizer.html...
+javadoc: warning - Tag @see: Class or Package not found: skipComment
+Generating javadoc\iicm\vrml\pw\Switch.html...
+Generating javadoc\iicm\vrml\pw\Text.html...
+Generating javadoc\iicm\vrml\pw\Texture.html...
+Generating javadoc\iicm\vrml\pw\TextureCoordinate.html...
+Generating javadoc\iicm\vrml\pw\TextureTransform.html...
+Generating javadoc\iicm\vrml\pw\TimeSensor.html...
+Generating javadoc\iicm\vrml\pw\TouchSensor.html...
+Generating javadoc\iicm\vrml\pw\Transform.html...
+Generating javadoc\iicm\vrml\pw\Traverser.html...
+Generating javadoc\iicm\vrml\pw\Viewpoint.html...
+Generating javadoc\iicm\vrml\pw\VisibilitySensor.html...
+Generating javadoc\iicm\vrml\pw\VRMLparser.html...
+Tag @see: Malformed: readHeader, readBody
+Generating javadoc\iicm\vrml\pw\WorldInfo.html...
+Generating javadoc\iicm\vrml\pwutils\CharArray.html...
+Generating javadoc\iicm\vrml\pwutils\DoubleArray.html...
+Generating javadoc\iicm\vrml\pwutils\FloatArray.html...
+Generating javadoc\iicm\vrml\pwutils\IntArray.html...
+Generating javadoc\iicm\vrml\pwutils\StringArray.html...
+Generating javadoc\iicm\vrml\pwutils\UtilTest.html...
+Generating javadoc\iicm\vrml\vrml2x3d\vrml2x3d.html...
+Generating javadoc\serialized-form.html...
+Generating javadoc\package-list...
+Generating javadoc\help-doc.html...
+Generating javadoc\stylesheet.css...
+8 warnings
+make[1]: Leaving directory `/cygdrive/c/www.web3d.org/TaskGroups/x3d/translation/Vrml97ToX3dNist'
+make -i zip
+make[1]: Entering directory `/cygdrive/c/www.web3d.org/TaskGroups/x3d/translation/Vrml97ToX3dNist'
+cd ..;	jar -cvf Vrml97ToX3dNist.zip Vrml97ToX3dNist/*
+adding: META-INF/ (in=0) (out=0) (stored 0%)
+adding: META-INF/MANIFEST.MF (in=56) (out=56) (stored 0%)
+adding: Vrml97ToX3dNist/Makefile (in=2673) (out=891) (deflated 66%)
+adding: Vrml97ToX3dNist/Makefile.$$$ (in=2544) (out=889) (deflated 65%)
+adding: Vrml97ToX3dNist/Makefile.out (in=86801) (out=13346) (deflated 84%)
+adding: Vrml97ToX3dNist/Makefile.out.$$$ (in=107148) (out=13958) (deflated 86%)
+adding: Vrml97ToX3dNist/Vrml97ToX3dNist.jar (in=173570) (out=163237) (deflated 5%)
+adding: Vrml97ToX3dNist/buglist.txt (in=58) (out=51) (deflated 12%)
+adding: Vrml97ToX3dNist/class/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/class/iicm/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/class/iicm/ge3d/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/class/iicm/ge3d/GE3D.class (in=2766) (out=1379) (deflated 50%)
+adding: Vrml97ToX3dNist/class/iicm/ge3d/OGLCanvas.class (in=2535) (out=1396) (deflated 44%)
+adding: Vrml97ToX3dNist/class/iicm/utils3d/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/class/iicm/utils3d/Camera.class (in=5200) (out=2726) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/utils3d/Hitpoint.class (in=690) (out=464) (deflated 32%)
+adding: Vrml97ToX3dNist/class/iicm/utils3d/Mat4f.class (in=4585) (out=2148) (deflated 53%)
+adding: Vrml97ToX3dNist/class/iicm/utils3d/PickUtil.class (in=5215) (out=2736) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/utils3d/Quaternion.class (in=5785) (out=3107) (deflated 46%)
+adding: Vrml97ToX3dNist/class/iicm/utils3d/QuatTest.class (in=1328) (out=740) (deflated 44%)
+adding: Vrml97ToX3dNist/class/iicm/utils3d/Ray.class (in=1657) (out=870) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/utils3d/Vec3f.class (in=5513) (out=2787) (deflated 49%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Anchor.class (in=2147) (out=994) (deflated 53%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Appearance.class (in=1313) (out=651) (deflated 50%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/AppearNode.class (in=282) (out=201) (deflated 28%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/AudioClip.class (in=1470) (out=755) (deflated 48%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Background.class (in=1685) (out=867) (deflated 48%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Billboard.class (in=1286) (out=707) (deflated 45%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Bindable.class (in=276) (out=199) (deflated 27%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Box.class (in=801) (out=456) (deflated 43%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Collision.class (in=1383) (out=743) (deflated 46%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Color.class (in=771) (out=421) (deflated 45%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/ColorInterpolator.class (in=1723) (out=867) (deflated 49%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Common.class (in=270) (out=195) (deflated 27%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Cone.class (in=1037) (out=571) (deflated 44%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Coordinate.class (in=801) (out=440) (deflated 45%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/CoordinateInterpolator.class (in=1805) (out=932) (deflated 48%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/CType.class (in=974) (out=567) (deflated 41%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Cylinder.class (in=1106) (out=595) (deflated 46%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/CylinderSensor.class (in=5584) (out=3036) (deflated 45%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Decompression.class (in=3714) (out=1871) (deflated 49%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/DecompressionStream.class (in=2571) (out=1403) (deflated 45%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/DefParserOutput.class (in=1143) (out=535) (deflated 53%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/DirectionalLight.class (in=1308) (out=667) (deflated 49%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/ElevationGrid.class (in=1815) (out=913) (deflated 49%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Extrusion.class (in=2556) (out=1275) (deflated 50%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Field.class (in=8420) (out=4020) (deflated 52%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/FieldNames.class (in=2511) (out=1113) (deflated 55%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Fog.class (in=1198) (out=644) (deflated 46%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/FontStyle.class (in=1711) (out=885) (deflated 48%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Geometry.class (in=276) (out=201) (deflated 27%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/GotEventCallback.class (in=174) (out=136) (deflated 21%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Group.class (in=1197) (out=653) (deflated 45%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/GroupNode.class (in=4456) (out=2019) (deflated 54%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/HeaderInfo.class (in=424) (out=298) (deflated 29%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/ImageTexture.class (in=1015) (out=536) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/IndexedFaceSet.class (in=2472) (out=1174) (deflated 52%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/IndexedLineSet.class (in=1277) (out=654) (deflated 48%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Inline.class (in=1001) (out=552) (deflated 44%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Interpolator.class (in=2050) (out=1221) (deflated 40%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Light.class (in=267) (out=196) (deflated 26%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/LOD.class (in=1019) (out=559) (deflated 45%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Material.class (in=1237) (out=667) (deflated 46%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/MFColor.class (in=3208) (out=1530) (deflated 52%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/MFFloat.class (in=2908) (out=1336) (deflated 54%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/MFInt32.class (in=2899) (out=1333) (deflated 54%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/MFNode.class (in=3398) (out=1644) (deflated 51%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/MFRotation.class (in=3258) (out=1547) (deflated 52%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/MFString.class (in=2942) (out=1328) (deflated 54%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/MFVec2f.class (in=3178) (out=1528) (deflated 51%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/MFVec3f.class (in=3314) (out=1568) (deflated 52%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/MovieTexture.class (in=1445) (out=748) (deflated 48%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/MultiField.class (in=1059) (out=658) (deflated 37%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/NavigationInfo.class (in=1618) (out=852) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Node.class (in=14675) (out=7147) (deflated 51%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/NodeNames.class (in=6257) (out=2665) (deflated 57%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Normal.class (in=778) (out=436) (deflated 43%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/NormalInterpolator.class (in=2274) (out=1210) (deflated 46%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/OrientationInterpolator.class (in=2534) (out=1279) (deflated 49%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/ParserOutput.class (in=260) (out=203) (deflated 21%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/PixelTexture.class (in=1015) (out=535) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/PlaneSensor.class (in=3701) (out=1930) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/PointerSensor.class (in=257) (out=188) (deflated 26%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/PointLight.class (in=1388) (out=725) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/PointSet.class (in=867) (out=474) (deflated 45%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/PositionInterpolator.class (in=1741) (out=873) (deflated 49%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/ProtoInstance.class (in=4339) (out=2109) (deflated 51%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/ProtoNode.class (in=7269) (out=3623) (deflated 50%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/ProximitySensor.class (in=1332) (out=696) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/RouteNode.class (in=1742) (out=845) (deflated 51%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/ScalarInterpolator.class (in=1659) (out=857) (deflated 48%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/SceneTraverser.class (in=48006) (out=19786) (deflated 58%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Script.class (in=7594) (out=3949) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Sensor.class (in=371) (out=248) (deflated 33%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/SFBool.class (in=1680) (out=805) (deflated 52%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/SFColor.class (in=2334) (out=1142) (deflated 51%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/SFFloat.class (in=1600) (out=751) (deflated 53%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/SFImage.class (in=3310) (out=1741) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/SFInt32.class (in=1597) (out=746) (deflated 53%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/SFNode.class (in=2268) (out=1070) (deflated 52%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/SFRotation.class (in=2255) (out=1073) (deflated 52%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/SFString.class (in=2249) (out=1044) (deflated 53%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/SFTime.class (in=1595) (out=747) (deflated 53%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/SFVec2f.class (in=2045) (out=990) (deflated 51%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/SFVec3f.class (in=2139) (out=1031) (deflated 51%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Shape.class (in=1202) (out=609) (deflated 49%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Sound.class (in=1524) (out=786) (deflated 48%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Sphere.class (in=817) (out=454) (deflated 44%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/SphereSensor.class (in=4746) (out=2550) (deflated 46%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/SpotLight.class (in=1578) (out=836) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/StrTokenizer.class (in=5423) (out=3098) (deflated 42%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Switch.class (in=905) (out=504) (deflated 44%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Text.class (in=1142) (out=605) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Texture.class (in=273) (out=200) (deflated 26%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/TextureCoordinate.class (in=843) (out=448) (deflated 46%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/TextureTransform.class (in=1123) (out=588) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/TimeSensor.class (in=3339) (out=1747) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/TouchSensor.class (in=3186) (out=1484) (deflated 53%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Transform.class (in=1601) (out=845) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Traverser.class (in=4663) (out=1556) (deflated 66%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/Viewpoint.class (in=1534) (out=802) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/VisibilitySensor.class (in=1199) (out=624) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/VRMLparser.class (in=4177) (out=1989) (deflated 52%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pw/WorldInfo.class (in=967) (out=505) (deflated 47%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pwutils/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pwutils/CharArray.class (in=2107) (out=1074) (deflated 49%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pwutils/DoubleArray.class (in=1981) (out=1017) (deflated 48%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pwutils/FloatArray.class (in=1977) (out=1016) (deflated 48%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pwutils/IntArray.class (in=1958) (out=1007) (deflated 48%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pwutils/StringArray.class (in=2112) (out=1032) (deflated 51%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/pwutils/UtilTest.class (in=2040) (out=1118) (deflated 45%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/vrml2x3d/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/class/iicm/vrml/vrml2x3d/vrml2x3d.class (in=4550) (out=2199) (deflated 51%)
+adding: Vrml97ToX3dNist/class/v2x3d_0.1.jar (in=2807) (out=2395) (deflated 14%)
+adding: Vrml97ToX3dNist/javadoc/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/javadoc/allclasses-frame.html (in=10102) (out=1542) (deflated 84%)
+adding: Vrml97ToX3dNist/javadoc/allclasses-noframe.html (in=9094) (out=1648) (deflated 81%)
+adding: Vrml97ToX3dNist/javadoc/constant-values.html (in=66311) (out=4956) (deflated 92%)
+adding: Vrml97ToX3dNist/javadoc/deprecated-list.html (in=3862) (out=800) (deflated 79%)
+adding: Vrml97ToX3dNist/javadoc/help-doc.html (in=7386) (out=2123) (deflated 71%)
+adding: Vrml97ToX3dNist/javadoc/iicm/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/javadoc/iicm/ge3d/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/javadoc/iicm/ge3d/GE3D.html (in=51716) (out=5344) (deflated 89%)
+adding: Vrml97ToX3dNist/javadoc/iicm/ge3d/OGLCanvas.html (in=25702) (out=4574) (deflated 82%)
+adding: Vrml97ToX3dNist/javadoc/iicm/ge3d/package-frame.html (in=844) (out=479) (deflated 43%)
+adding: Vrml97ToX3dNist/javadoc/iicm/ge3d/package-summary.html (in=4685) (out=1001) (deflated 78%)
+adding: Vrml97ToX3dNist/javadoc/iicm/ge3d/package-tree.html (in=4773) (out=1047) (deflated 78%)
+adding: Vrml97ToX3dNist/javadoc/iicm/utils3d/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/javadoc/iicm/utils3d/Camera.html (in=23289) (out=3421) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/utils3d/Hitpoint.html (in=12582) (out=2013) (deflated 84%)
+adding: Vrml97ToX3dNist/javadoc/iicm/utils3d/Mat4f.html (in=17957) (out=2549) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/utils3d/package-frame.html (in=1221) (out=549) (deflated 55%)
+adding: Vrml97ToX3dNist/javadoc/iicm/utils3d/package-summary.html (in=5898) (out=1224) (deflated 79%)
+adding: Vrml97ToX3dNist/javadoc/iicm/utils3d/package-tree.html (in=5236) (out=1040) (deflated 80%)
+adding: Vrml97ToX3dNist/javadoc/iicm/utils3d/PickUtil.html (in=19706) (out=2845) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/utils3d/Quaternion.html (in=24407) (out=3589) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/utils3d/QuatTest.html (in=8167) (out=1531) (deflated 81%)
+adding: Vrml97ToX3dNist/javadoc/iicm/utils3d/Ray.html (in=13756) (out=2245) (deflated 83%)
+adding: Vrml97ToX3dNist/javadoc/iicm/utils3d/Vec3f.html (in=26548) (out=3545) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Anchor.html (in=25779) (out=3223) (deflated 87%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Appearance.html (in=17462) (out=2513) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/AppearNode.html (in=12221) (out=2071) (deflated 83%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/AudioClip.html (in=17950) (out=2554) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Background.html (in=20719) (out=2701) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Billboard.html (in=18725) (out=2625) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Bindable.html (in=12169) (out=2077) (deflated 82%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Box.html (in=15176) (out=2354) (deflated 84%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Collision.html (in=19189) (out=2664) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Color.html (in=15114) (out=2324) (deflated 84%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/ColorInterpolator.html (in=19334) (out=2816) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Common.html (in=12203) (out=2084) (deflated 82%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Cone.html (in=16792) (out=2455) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Coordinate.html (in=15189) (out=2337) (deflated 84%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/CoordinateInterpolator.html (in=19437) (out=2817) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/CType.html (in=9042) (out=1768) (deflated 80%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Cylinder.html (in=17352) (out=2486) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/CylinderSensor.html (in=32212) (out=3606) (deflated 88%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Decompression.html (in=11471) (out=1950) (deflated 83%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/DecompressionStream.html (in=12254) (out=2143) (deflated 82%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/DefParserOutput.html (in=11914) (out=1996) (deflated 83%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/DirectionalLight.html (in=17598) (out=2512) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/ElevationGrid.html (in=21911) (out=2773) (deflated 87%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Extrusion.html (in=23124) (out=2915) (deflated 87%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Field.html (in=41318) (out=5012) (deflated 87%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/FieldNames.html (in=17863) (out=2159) (deflated 87%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Fog.html (in=16291) (out=2443) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/FontStyle.html (in=20554) (out=2714) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Geometry.html (in=12531) (out=2136) (deflated 82%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/GotEventCallback.html (in=6943) (out=1380) (deflated 80%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Group.html (in=18087) (out=2577) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/GroupNode.html (in=25167) (out=3249) (deflated 87%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/HeaderInfo.html (in=8895) (out=1594) (deflated 82%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/ImageTexture.html (in=16392) (out=2430) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/IndexedFaceSet.html (in=23554) (out=2877) (deflated 87%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/IndexedLineSet.html (in=17563) (out=2506) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Inline.html (in=18639) (out=2628) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Interpolator.html (in=17973) (out=2970) (deflated 83%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Light.html (in=12093) (out=2053) (deflated 83%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/LOD.html (in=18529) (out=2627) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Material.html (in=18105) (out=2544) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/MFColor.html (in=24624) (out=3342) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/MFFloat.html (in=24614) (out=3332) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/MFInt32.html (in=25714) (out=3445) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/MFNode.html (in=25771) (out=3430) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/MFRotation.html (in=24788) (out=3374) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/MFString.html (in=25810) (out=3401) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/MFVec2f.html (in=24630) (out=3348) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/MFVec3f.html (in=25118) (out=3391) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/MovieTexture.html (in=18516) (out=2560) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/MultiField.html (in=16988) (out=2796) (deflated 83%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/NavigationInfo.html (in=18558) (out=2616) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Node.html (in=37417) (out=4539) (deflated 87%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/NodeNames.html (in=36220) (out=3589) (deflated 90%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Normal.html (in=15136) (out=2334) (deflated 84%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/NormalInterpolator.html (in=20869) (out=3012) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/OrientationInterpolator.html (in=20995) (out=3027) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/package-frame.html (in=7814) (out=1430) (deflated 81%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/package-summary.html (in=21256) (out=2707) (deflated 87%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/package-tree.html (in=16427) (out=2101) (deflated 87%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/ParserOutput.html (in=9664) (out=1695) (deflated 82%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/PixelTexture.html (in=16418) (out=2437) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/PlaneSensor.html (in=27550) (out=3265) (deflated 88%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/PointerSensor.html (in=10494) (out=1675) (deflated 84%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/PointLight.html (in=18552) (out=2563) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/PointSet.html (in=15800) (out=2387) (deflated 84%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/PositionInterpolator.html (in=19411) (out=2828) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/ProtoInstance.html (in=17553) (out=2627) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/ProtoNode.html (in=26095) (out=3373) (deflated 87%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/ProximitySensor.html (in=16902) (out=2475) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/RouteNode.html (in=18931) (out=2618) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/ScalarInterpolator.html (in=19377) (out=2800) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/SceneTraverser.html (in=69512) (out=6364) (deflated 90%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Script.html (in=21744) (out=2928) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Sensor.html (in=13426) (out=2237) (deflated 83%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/SFBool.html (in=20351) (out=2953) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/SFColor.html (in=20489) (out=2961) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/SFFloat.html (in=21136) (out=3015) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/SFImage.html (in=22133) (out=3154) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/SFInt32.html (in=20338) (out=2960) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/SFNode.html (in=22175) (out=3058) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/SFRotation.html (in=20877) (out=3025) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/SFString.html (in=22079) (out=3088) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/SFTime.html (in=20345) (out=2954) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/SFVec2f.html (in=20435) (out=2951) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/SFVec3f.html (in=20546) (out=2995) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Shape.html (in=16789) (out=2475) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Sound.html (in=20040) (out=2652) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Sphere.html (in=15231) (out=2353) (deflated 84%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/SphereSensor.html (in=29488) (out=3397) (deflated 88%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/SpotLight.html (in=20192) (out=2664) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/StrTokenizer.html (in=16057) (out=2871) (deflated 82%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Switch.html (in=18092) (out=2594) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Text.html (in=16804) (out=2477) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Texture.html (in=12131) (out=2057) (deflated 83%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/TextureCoordinate.html (in=15288) (out=2341) (deflated 84%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/TextureTransform.html (in=17056) (out=2474) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/TimeSensor.html (in=21091) (out=2770) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/TouchSensor.html (in=24682) (out=3056) (deflated 87%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Transform.html (in=20921) (out=2748) (deflated 86%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Traverser.html (in=47749) (out=4853) (deflated 89%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/Viewpoint.html (in=17507) (out=2540) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/VisibilitySensor.html (in=16921) (out=2482) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/VRMLparser.html (in=20177) (out=3043) (deflated 84%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pw/WorldInfo.html (in=15681) (out=2389) (deflated 84%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pwutils/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pwutils/CharArray.html (in=15062) (out=2635) (deflated 82%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pwutils/DoubleArray.html (in=14730) (out=2559) (deflated 82%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pwutils/FloatArray.html (in=14646) (out=2557) (deflated 82%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pwutils/IntArray.html (in=14482) (out=2549) (deflated 82%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pwutils/package-frame.html (in=1154) (out=537) (deflated 53%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pwutils/package-summary.html (in=6116) (out=1176) (deflated 80%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pwutils/package-tree.html (in=5232) (out=1024) (deflated 80%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pwutils/StringArray.html (in=14904) (out=2566) (deflated 82%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/pwutils/UtilTest.html (in=8798) (out=1599) (deflated 81%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/vrml2x3d/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/vrml2x3d/package-frame.html (in=819) (out=471) (deflated 42%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/vrml2x3d/package-summary.html (in=4558) (out=953) (deflated 79%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/vrml2x3d/package-tree.html (in=4534) (out=958) (deflated 78%)
+adding: Vrml97ToX3dNist/javadoc/iicm/vrml/vrml2x3d/vrml2x3d.html (in=9386) (out=1650) (deflated 82%)
+adding: Vrml97ToX3dNist/javadoc/index-all.html (in=317418) (out=30568) (deflated 90%)
+adding: Vrml97ToX3dNist/javadoc/index.html (in=790) (out=449) (deflated 43%)
+adding: Vrml97ToX3dNist/javadoc/overview-frame.html (in=1428) (out=528) (deflated 63%)
+adding: Vrml97ToX3dNist/javadoc/overview-summary.html (in=4903) (out=961) (deflated 80%)
+adding: Vrml97ToX3dNist/javadoc/overview-tree.html (in=17108) (out=2400) (deflated 85%)
+adding: Vrml97ToX3dNist/javadoc/package-list (in=78) (out=41) (deflated 47%)
+adding: Vrml97ToX3dNist/javadoc/packages.html (in=710) (out=389) (deflated 45%)
+adding: Vrml97ToX3dNist/javadoc/serialized-form.html (in=6331) (out=1202) (deflated 81%)
+adding: Vrml97ToX3dNist/javadoc/stylesheet.css (in=1269) (out=440) (deflated 65%)
+adding: Vrml97ToX3dNist/javasrc/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/javasrc/iicm/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/javasrc/iicm/ge3d/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/javasrc/iicm/ge3d/GE3D.java (in=6417) (out=1907) (deflated 70%)
+adding: Vrml97ToX3dNist/javasrc/iicm/ge3d/jc (in=239) (out=171) (deflated 28%)
+adding: Vrml97ToX3dNist/javasrc/iicm/ge3d/makeit (in=112) (out=99) (deflated 11%)
+adding: Vrml97ToX3dNist/javasrc/iicm/ge3d/OGLCanvas.java (in=5393) (out=2023) (deflated 62%)
+adding: Vrml97ToX3dNist/javasrc/iicm/utils3d/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/javasrc/iicm/utils3d/Camera.java (in=10000) (out=2872) (deflated 71%)
+adding: Vrml97ToX3dNist/javasrc/iicm/utils3d/Hitpoint.java (in=1382) (out=648) (deflated 53%)
+adding: Vrml97ToX3dNist/javasrc/iicm/utils3d/jc (in=242) (out=172) (deflated 28%)
+adding: Vrml97ToX3dNist/javasrc/iicm/utils3d/jcg (in=245) (out=174) (deflated 28%)
+adding: Vrml97ToX3dNist/javasrc/iicm/utils3d/Mat4f.java (in=8592) (out=2231) (deflated 74%)
+adding: Vrml97ToX3dNist/javasrc/iicm/utils3d/PickUtil.java (in=12228) (out=2735) (deflated 77%)
+adding: Vrml97ToX3dNist/javasrc/iicm/utils3d/Quaternion.java (in=12906) (out=4059) (deflated 68%)
+adding: Vrml97ToX3dNist/javasrc/iicm/utils3d/QuatTest.java (in=1040) (out=410) (deflated 60%)
+adding: Vrml97ToX3dNist/javasrc/iicm/utils3d/Ray.java (in=1813) (out=671) (deflated 62%)
+adding: Vrml97ToX3dNist/javasrc/iicm/utils3d/Vec3f.java (in=7959) (out=2361) (deflated 70%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Anchor.java (in=2281) (out=887) (deflated 61%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Appearance.java (in=1334) (out=605) (deflated 54%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/AppearNode.java (in=631) (out=389) (deflated 38%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/AudioClip.java (in=1517) (out=643) (deflated 57%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Background.java (in=1941) (out=726) (deflated 62%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Billboard.java (in=1505) (out=659) (deflated 56%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Bindable.java (in=623) (out=386) (deflated 38%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Box.java (in=778) (out=459) (deflated 41%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Collision.java (in=1520) (out=666) (deflated 56%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Color.java (in=782) (out=454) (deflated 41%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/ColorInterpolator.java (in=1606) (out=686) (deflated 57%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Common.java (in=615) (out=384) (deflated 37%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Cone.java (in=1036) (out=522) (deflated 49%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Coordinate.java (in=881) (out=501) (deflated 43%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/CoordinateInterpolator.java (in=1992) (out=797) (deflated 59%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/CType.java (in=2055) (out=892) (deflated 56%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Cylinder.java (in=1123) (out=538) (deflated 52%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/CylinderSensor.java (in=8606) (out=2315) (deflated 73%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Decompression.java (in=5805) (out=1748) (deflated 69%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/DecompressionStream.java (in=3831) (out=1583) (deflated 58%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/DefParserOutput.java (in=1070) (out=506) (deflated 52%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/DirectionalLight.java (in=1387) (out=608) (deflated 56%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/ElevationGrid.java (in=2017) (out=729) (deflated 63%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Extrusion.java (in=3013) (out=937) (deflated 68%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Field.java (in=13267) (out=3747) (deflated 71%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Field.java.$$$ (in=12624) (out=3593) (deflated 71%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/FieldNames.java (in=3457) (out=943) (deflated 72%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Fog.java (in=1228) (out=598) (deflated 51%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/FontStyle.java (in=1683) (out=691) (deflated 58%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Geometry.java (in=630) (out=391) (deflated 37%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/GotEventCallback.java (in=600) (out=365) (deflated 39%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Group.java (in=1353) (out=613) (deflated 54%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/GroupNode.java (in=4222) (out=1267) (deflated 69%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/ImageTexture.java (in=1044) (out=522) (deflated 50%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/IndexedFaceSet.java (in=3326) (out=917) (deflated 72%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/IndexedLineSet.java (in=1440) (out=598) (deflated 58%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Inline.java (in=1057) (out=559) (deflated 47%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Interpolator.java (in=3503) (out=1337) (deflated 61%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Light.java (in=585) (out=361) (deflated 38%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/LOD.java (in=1005) (out=537) (deflated 46%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Material.java (in=1412) (out=592) (deflated 58%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/MFColor.java (in=3205) (out=1153) (deflated 64%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/MFFloat.java (in=2559) (out=953) (deflated 62%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/MFInt32.java (in=2538) (out=959) (deflated 62%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/MFNode.java (in=3616) (out=1280) (deflated 64%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/MFRotation.java (in=3326) (out=1169) (deflated 64%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/MFString.java (in=2796) (out=1021) (deflated 63%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/MFVec2f.java (in=3068) (out=1118) (deflated 63%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/MFVec3f.java (in=3238) (out=1158) (deflated 64%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/MovieTexture.java (in=1696) (out=681) (deflated 59%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/MultiField.java (in=2027) (out=910) (deflated 55%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/NavigationInfo.java (in=1692) (out=732) (deflated 56%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Node.java (in=27680) (out=6131) (deflated 77%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Node.java.$$$ (in=27588) (out=6109) (deflated 77%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/NodeNames.java (in=9468) (out=2231) (deflated 76%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Normal.java (in=793) (out=458) (deflated 42%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/NormalInterpolator.java (in=2534) (out=1032) (deflated 59%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/OrientationInterpolator.java (in=2426) (out=999) (deflated 58%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/ParserOutput.java (in=1032) (out=549) (deflated 46%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/PixelTexture.java (in=1047) (out=522) (deflated 50%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/PlaneSensor.java (in=5680) (out=1442) (deflated 74%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/PointerSensor.java (in=1427) (out=584) (deflated 59%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/PointLight.java (in=1502) (out=616) (deflated 58%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/PointSet.java (in=884) (out=484) (deflated 45%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/PositionInterpolator.java (in=1635) (out=697) (deflated 57%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/ProtoInstance.java (in=6649) (out=1797) (deflated 72%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/ProtoInstance.java.$$$ (in=6689) (out=1803) (deflated 73%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/ProtoInstance.java.mod (in=5865) (out=1761) (deflated 69%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/ProtoNode.class (in=6245) (out=3125) (deflated 49%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/ProtoNode.java (in=10216) (out=2958) (deflated 71%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/ProtoNode.java.$$$ (in=10188) (out=2941) (deflated 71%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/ProximitySensor.java (in=1584) (out=632) (deflated 60%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/RouteNode.java (in=1732) (out=826) (deflated 52%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/ScalarInterpolator.java (in=1668) (out=706) (deflated 57%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/SceneTraverser.java (in=93340) (out=10444) (deflated 88%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/SceneTraverser.java.$$$ (in=93111) (out=10387) (deflated 88%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Script.class (in=6875) (out=3590) (deflated 47%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Script.java (in=10974) (out=3176) (deflated 71%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Script.java.$$$ (in=10563) (out=3105) (deflated 70%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Sensor.java (in=649) (out=392) (deflated 39%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/SFBool.java (in=1553) (out=718) (deflated 53%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/SFColor.java (in=2118) (out=905) (deflated 57%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/SFFloat.java (in=1477) (out=673) (deflated 54%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/SFImage.java (in=3577) (out=1437) (deflated 59%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/SFInt32.java (in=1463) (out=684) (deflated 53%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/SFNode.java (in=2636) (out=1091) (deflated 58%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/SFRotation.java (in=2129) (out=895) (deflated 57%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/SFString.java (in=2260) (out=872) (deflated 61%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/SFTime.java (in=1478) (out=689) (deflated 53%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/SFVec2f.java (in=1669) (out=752) (deflated 54%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/SFVec3f.java (in=1847) (out=799) (deflated 56%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Shape.java (in=1155) (out=580) (deflated 49%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Sound.java (in=1672) (out=640) (deflated 61%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Sphere.java (in=796) (out=459) (deflated 42%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/SphereSensor.java (in=6359) (out=1821) (deflated 71%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/SpotLight.java (in=1802) (out=686) (deflated 61%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/StrTokenizer.java (in=12013) (out=3794) (deflated 68%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/StrTokenizer.java.$$$ (in=11863) (out=3777) (deflated 68%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Switch.java (in=1042) (out=549) (deflated 47%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Text.java (in=1094) (out=536) (deflated 51%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Texture.java (in=593) (out=363) (deflated 38%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/TextureCoordinate.java (in=878) (out=480) (deflated 45%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/TextureTransform.java (in=1217) (out=559) (deflated 54%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/TimeSensor.java (in=6084) (out=1698) (deflated 72%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/TouchSensor.java (in=5486) (out=1228) (deflated 77%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Transform.java (in=1945) (out=721) (deflated 62%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Traverser.java (in=5253) (out=1578) (deflated 69%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/Viewpoint.java (in=1656) (out=701) (deflated 57%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/VisibilitySensor.java (in=1364) (out=597) (deflated 56%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/VRMLparser.java (in=5474) (out=2033) (deflated 62%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/VRMLparser.java.$$$ (in=5518) (out=2055) (deflated 62%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pw/WorldInfo.java (in=898) (out=481) (deflated 46%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pwutils/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pwutils/CharArray.java (in=4441) (out=1690) (deflated 61%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pwutils/CharArray.java.$$$ (in=4499) (out=1724) (deflated 61%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pwutils/DoubleArray.java (in=4394) (out=1649) (deflated 62%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pwutils/FloatArray.java (in=4361) (out=1650) (deflated 62%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pwutils/Gen_Array.j (in=4217) (out=1586) (deflated 62%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pwutils/IntArray.java (in=4295) (out=1643) (deflated 61%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pwutils/jc (in=250) (out=174) (deflated 30%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pwutils/makeit (in=113) (out=98) (deflated 13%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pwutils/mksrc (in=764) (out=414) (deflated 45%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pwutils/StringArray.java (in=4394) (out=1653) (deflated 62%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/pwutils/UtilTest.java (in=1535) (out=547) (deflated 64%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/vrml2x3d/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/vrml2x3d/vrml2x3d.java (in=4493) (out=1496) (deflated 66%)
+adding: Vrml97ToX3dNist/javasrc/iicm/vrml/vrml2x3d/vrml2x3d.java.$$$ (in=4337) (out=1466) (deflated 66%)
+adding: Vrml97ToX3dNist/makev2x3d (in=2135) (out=480) (deflated 77%)
+adding: Vrml97ToX3dNist/readme (in=916) (out=513) (deflated 43%)
+adding: Vrml97ToX3dNist/test/ (in=0) (out=0) (stored 0%)
+adding: Vrml97ToX3dNist/test/A1_GeoElevationGrid.x3d (in=3448) (out=1132) (deflated 67%)
+adding: Vrml97ToX3dNist/test/ai0.wrl (in=144697) (out=29134) (deflated 79%)
+adding: Vrml97ToX3dNist/test/ai0.xml (in=118162) (out=26810) (deflated 77%)
+adding: Vrml97ToX3dNist/test/anotherNewShape.x3d (in=1473) (out=476) (deflated 67%)
+adding: Vrml97ToX3dNist/test/anotherRoll.x3d (in=6831) (out=801) (deflated 88%)
+adding: Vrml97ToX3dNist/test/Figure31.7DonutExternalPrototype.x3d (in=5438) (out=1402) (deflated 74%)
+adding: Vrml97ToX3dNist/test/Figure31.9SpinGroupPrototypeToX3d.x3d (in=3844) (out=1246) (deflated 67%)
+adding: Vrml97ToX3dNist/test/HelloWorldToX3d.x3d (in=2441) (out=865) (deflated 64%)
+adding: Vrml97ToX3dNist/test/newRoll.x3d (in=6812) (out=820) (deflated 87%)
+adding: Vrml97ToX3dNist/test/newshape.wrl (in=958) (out=363) (deflated 62%)
+adding: Vrml97ToX3dNist/test/newshape.wrl.$$$ (in=942) (out=350) (deflated 62%)
+adding: Vrml97ToX3dNist/test/newshape.xml (in=1516) (out=507) (deflated 66%)
+adding: Vrml97ToX3dNist/test/roll.wrl (in=4365) (out=690) (deflated 84%)
+adding: Vrml97ToX3dNist/test/roll.xml (in=6771) (out=817) (deflated 87%)
+adding: Vrml97ToX3dNist/test/shark2.1.x3d (in=254810) (out=25948) (deflated 89%)
+adding: Vrml97ToX3dNist/test/TestObject.wrl (in=466) (out=242) (deflated 48%)
+adding: Vrml97ToX3dNist/test/TestObjectResult.x3d (in=2137) (out=795) (deflated 62%)
+adding: Vrml97ToX3dNist/test/v2x3dtest (in=113) (out=88) (deflated 22%)
+adding: Vrml97ToX3dNist/test/v2x3dtest.bat (in=76) (out=63) (deflated 17%)
+adding: Vrml97ToX3dNist/test/_new_result.wrl (in=6472) (out=1743) (deflated 73%)
+adding: Vrml97ToX3dNist/v2x3d_0.1.jar (in=2895) (out=2398) (deflated 17%)
+Total:
+------
+(in = 4859736) (out = 1113850) (deflated 77%)
+make[1]: Leaving directory `/cygdrive/c/www.web3d.org/TaskGroups/x3d/translation/Vrml97ToX3dNist'
+cd class; jar -cvf Vrml97ToX3dNist.jar */*/*.class */*/*/*.class
+adding: META-INF/ (in=0) (out=0) (stored 0%)
+adding: META-INF/MANIFEST.MF (in=56) (out=56) (stored 0%)
+adding: iicm/ge3d/GE3D.class (in=2766) (out=1379) (deflated 50%)
+adding: iicm/ge3d/OGLCanvas.class (in=2535) (out=1396) (deflated 44%)
+adding: iicm/utils3d/Camera.class (in=5200) (out=2726) (deflated 47%)
+adding: iicm/utils3d/Hitpoint.class (in=690) (out=464) (deflated 32%)
+adding: iicm/utils3d/Mat4f.class (in=4585) (out=2148) (deflated 53%)
+adding: iicm/utils3d/PickUtil.class (in=5215) (out=2736) (deflated 47%)
+adding: iicm/utils3d/QuatTest.class (in=1328) (out=740) (deflated 44%)
+adding: iicm/utils3d/Quaternion.class (in=5785) (out=3107) (deflated 46%)
+adding: iicm/utils3d/Ray.class (in=1657) (out=870) (deflated 47%)
+adding: iicm/utils3d/Vec3f.class (in=5513) (out=2787) (deflated 49%)
+adding: iicm/vrml/pw/Anchor.class (in=2147) (out=994) (deflated 53%)
+adding: iicm/vrml/pw/AppearNode.class (in=282) (out=201) (deflated 28%)
+adding: iicm/vrml/pw/Appearance.class (in=1313) (out=651) (deflated 50%)
+adding: iicm/vrml/pw/AudioClip.class (in=1470) (out=755) (deflated 48%)
+adding: iicm/vrml/pw/Background.class (in=1685) (out=867) (deflated 48%)
+adding: iicm/vrml/pw/Billboard.class (in=1286) (out=707) (deflated 45%)
+adding: iicm/vrml/pw/Bindable.class (in=276) (out=199) (deflated 27%)
+adding: iicm/vrml/pw/Box.class (in=801) (out=456) (deflated 43%)
+adding: iicm/vrml/pw/CType.class (in=974) (out=567) (deflated 41%)
+adding: iicm/vrml/pw/Collision.class (in=1383) (out=743) (deflated 46%)
+adding: iicm/vrml/pw/Color.class (in=771) (out=421) (deflated 45%)
+adding: iicm/vrml/pw/ColorInterpolator.class (in=1723) (out=867) (deflated 49%)
+adding: iicm/vrml/pw/Common.class (in=270) (out=195) (deflated 27%)
+adding: iicm/vrml/pw/Cone.class (in=1037) (out=571) (deflated 44%)
+adding: iicm/vrml/pw/Coordinate.class (in=801) (out=440) (deflated 45%)
+adding: iicm/vrml/pw/CoordinateInterpolator.class (in=1805) (out=932) (deflated 48%)
+adding: iicm/vrml/pw/Cylinder.class (in=1106) (out=595) (deflated 46%)
+adding: iicm/vrml/pw/CylinderSensor.class (in=5584) (out=3036) (deflated 45%)
+adding: iicm/vrml/pw/Decompression.class (in=3714) (out=1871) (deflated 49%)
+adding: iicm/vrml/pw/DecompressionStream.class (in=2571) (out=1403) (deflated 45%)
+adding: iicm/vrml/pw/DefParserOutput.class (in=1143) (out=535) (deflated 53%)
+adding: iicm/vrml/pw/DirectionalLight.class (in=1308) (out=667) (deflated 49%)
+adding: iicm/vrml/pw/ElevationGrid.class (in=1815) (out=913) (deflated 49%)
+adding: iicm/vrml/pw/Extrusion.class (in=2556) (out=1275) (deflated 50%)
+adding: iicm/vrml/pw/Field.class (in=8420) (out=4020) (deflated 52%)
+adding: iicm/vrml/pw/FieldNames.class (in=2511) (out=1113) (deflated 55%)
+adding: iicm/vrml/pw/Fog.class (in=1198) (out=644) (deflated 46%)
+adding: iicm/vrml/pw/FontStyle.class (in=1711) (out=885) (deflated 48%)
+adding: iicm/vrml/pw/Geometry.class (in=276) (out=201) (deflated 27%)
+adding: iicm/vrml/pw/GotEventCallback.class (in=174) (out=136) (deflated 21%)
+adding: iicm/vrml/pw/Group.class (in=1197) (out=653) (deflated 45%)
+adding: iicm/vrml/pw/GroupNode.class (in=4456) (out=2019) (deflated 54%)
+adding: iicm/vrml/pw/HeaderInfo.class (in=424) (out=298) (deflated 29%)
+adding: iicm/vrml/pw/ImageTexture.class (in=1015) (out=536) (deflated 47%)
+adding: iicm/vrml/pw/IndexedFaceSet.class (in=2472) (out=1174) (deflated 52%)
+adding: iicm/vrml/pw/IndexedLineSet.class (in=1277) (out=654) (deflated 48%)
+adding: iicm/vrml/pw/Inline.class (in=1001) (out=552) (deflated 44%)
+adding: iicm/vrml/pw/Interpolator.class (in=2050) (out=1221) (deflated 40%)
+adding: iicm/vrml/pw/LOD.class (in=1019) (out=559) (deflated 45%)
+adding: iicm/vrml/pw/Light.class (in=267) (out=196) (deflated 26%)
+adding: iicm/vrml/pw/MFColor.class (in=3208) (out=1530) (deflated 52%)
+adding: iicm/vrml/pw/MFFloat.class (in=2908) (out=1336) (deflated 54%)
+adding: iicm/vrml/pw/MFInt32.class (in=2899) (out=1333) (deflated 54%)
+adding: iicm/vrml/pw/MFNode.class (in=3398) (out=1644) (deflated 51%)
+adding: iicm/vrml/pw/MFRotation.class (in=3258) (out=1547) (deflated 52%)
+adding: iicm/vrml/pw/MFString.class (in=2942) (out=1328) (deflated 54%)
+adding: iicm/vrml/pw/MFVec2f.class (in=3178) (out=1528) (deflated 51%)
+adding: iicm/vrml/pw/MFVec3f.class (in=3314) (out=1568) (deflated 52%)
+adding: iicm/vrml/pw/Material.class (in=1237) (out=667) (deflated 46%)
+adding: iicm/vrml/pw/MovieTexture.class (in=1445) (out=748) (deflated 48%)
+adding: iicm/vrml/pw/MultiField.class (in=1059) (out=658) (deflated 37%)
+adding: iicm/vrml/pw/NavigationInfo.class (in=1618) (out=852) (deflated 47%)
+adding: iicm/vrml/pw/Node.class (in=14675) (out=7147) (deflated 51%)
+adding: iicm/vrml/pw/NodeNames.class (in=6257) (out=2665) (deflated 57%)
+adding: iicm/vrml/pw/Normal.class (in=778) (out=436) (deflated 43%)
+adding: iicm/vrml/pw/NormalInterpolator.class (in=2274) (out=1210) (deflated 46%)
+adding: iicm/vrml/pw/OrientationInterpolator.class (in=2534) (out=1279) (deflated 49%)
+adding: iicm/vrml/pw/ParserOutput.class (in=260) (out=203) (deflated 21%)
+adding: iicm/vrml/pw/PixelTexture.class (in=1015) (out=535) (deflated 47%)
+adding: iicm/vrml/pw/PlaneSensor.class (in=3701) (out=1930) (deflated 47%)
+adding: iicm/vrml/pw/PointLight.class (in=1388) (out=725) (deflated 47%)
+adding: iicm/vrml/pw/PointSet.class (in=867) (out=474) (deflated 45%)
+adding: iicm/vrml/pw/PointerSensor.class (in=257) (out=188) (deflated 26%)
+adding: iicm/vrml/pw/PositionInterpolator.class (in=1741) (out=873) (deflated 49%)
+adding: iicm/vrml/pw/ProtoInstance.class (in=4339) (out=2109) (deflated 51%)
+adding: iicm/vrml/pw/ProtoNode.class (in=7269) (out=3623) (deflated 50%)
+adding: iicm/vrml/pw/ProximitySensor.class (in=1332) (out=696) (deflated 47%)
+adding: iicm/vrml/pw/RouteNode.class (in=1742) (out=845) (deflated 51%)
+adding: iicm/vrml/pw/SFBool.class (in=1680) (out=805) (deflated 52%)
+adding: iicm/vrml/pw/SFColor.class (in=2334) (out=1142) (deflated 51%)
+adding: iicm/vrml/pw/SFFloat.class (in=1600) (out=751) (deflated 53%)
+adding: iicm/vrml/pw/SFImage.class (in=3310) (out=1741) (deflated 47%)
+adding: iicm/vrml/pw/SFInt32.class (in=1597) (out=746) (deflated 53%)
+adding: iicm/vrml/pw/SFNode.class (in=2268) (out=1070) (deflated 52%)
+adding: iicm/vrml/pw/SFRotation.class (in=2255) (out=1073) (deflated 52%)
+adding: iicm/vrml/pw/SFString.class (in=2249) (out=1044) (deflated 53%)
+adding: iicm/vrml/pw/SFTime.class (in=1595) (out=747) (deflated 53%)
+adding: iicm/vrml/pw/SFVec2f.class (in=2045) (out=990) (deflated 51%)
+adding: iicm/vrml/pw/SFVec3f.class (in=2139) (out=1031) (deflated 51%)
+adding: iicm/vrml/pw/ScalarInterpolator.class (in=1659) (out=857) (deflated 48%)
+adding: iicm/vrml/pw/SceneTraverser.class (in=48006) (out=19786) (deflated 58%)
+adding: iicm/vrml/pw/Script.class (in=7594) (out=3949) (deflated 47%)
+adding: iicm/vrml/pw/Sensor.class (in=371) (out=248) (deflated 33%)
+adding: iicm/vrml/pw/Shape.class (in=1202) (out=609) (deflated 49%)
+adding: iicm/vrml/pw/Sound.class (in=1524) (out=786) (deflated 48%)
+adding: iicm/vrml/pw/Sphere.class (in=817) (out=454) (deflated 44%)
+adding: iicm/vrml/pw/SphereSensor.class (in=4746) (out=2550) (deflated 46%)
+adding: iicm/vrml/pw/SpotLight.class (in=1578) (out=836) (deflated 47%)
+adding: iicm/vrml/pw/StrTokenizer.class (in=5423) (out=3098) (deflated 42%)
+adding: iicm/vrml/pw/Switch.class (in=905) (out=504) (deflated 44%)
+adding: iicm/vrml/pw/Text.class (in=1142) (out=605) (deflated 47%)
+adding: iicm/vrml/pw/Texture.class (in=273) (out=200) (deflated 26%)
+adding: iicm/vrml/pw/TextureCoordinate.class (in=843) (out=448) (deflated 46%)
+adding: iicm/vrml/pw/TextureTransform.class (in=1123) (out=588) (deflated 47%)
+adding: iicm/vrml/pw/TimeSensor.class (in=3339) (out=1747) (deflated 47%)
+adding: iicm/vrml/pw/TouchSensor.class (in=3186) (out=1484) (deflated 53%)
+adding: iicm/vrml/pw/Transform.class (in=1601) (out=845) (deflated 47%)
+adding: iicm/vrml/pw/Traverser.class (in=4663) (out=1556) (deflated 66%)
+adding: iicm/vrml/pw/VRMLparser.class (in=4177) (out=1989) (deflated 52%)
+adding: iicm/vrml/pw/Viewpoint.class (in=1534) (out=802) (deflated 47%)
+adding: iicm/vrml/pw/VisibilitySensor.class (in=1199) (out=624) (deflated 47%)
+adding: iicm/vrml/pw/WorldInfo.class (in=967) (out=505) (deflated 47%)
+adding: iicm/vrml/pwutils/CharArray.class (in=2107) (out=1074) (deflated 49%)
+adding: iicm/vrml/pwutils/DoubleArray.class (in=1981) (out=1017) (deflated 48%)
+adding: iicm/vrml/pwutils/FloatArray.class (in=1977) (out=1016) (deflated 48%)
+adding: iicm/vrml/pwutils/IntArray.class (in=1958) (out=1007) (deflated 48%)
+adding: iicm/vrml/pwutils/StringArray.class (in=2112) (out=1032) (deflated 51%)
+adding: iicm/vrml/pwutils/UtilTest.class (in=2040) (out=1118) (deflated 45%)
+adding: iicm/vrml/vrml2x3d/vrml2x3d.class (in=4550) (out=2199) (deflated 51%)
+Total:
+------
+(in = 321170) (out = 173570) (deflated 45%)
+mv class/Vrml97ToX3dNist.jar .
+copy .jar for use with Vrml97ToX3dNist.bat
+cp Vrml97ToX3dNist.jar c:/www.web3D.org/TaskGroups/x3d/translation/
+cp Vrml97ToX3dNist.jar c:/Ibm/Xeena/lib
+ls -l c:/www.web3D.org/TaskGroups/x3d/translation/Vrml97ToX3dNist.jar
+-rw-r--r--    1 brutzman None       173570 Apr 18 06:34 c:/www.web3D.org/TaskGroups/x3d/translation/Vrml97ToX3dNist.jar
+ls -l c:/Ibm/Xeena/lib/Vrml97ToX3dNist.jar
+-rw-r--r--    1 brutzman None       173570 Apr 18 06:34 c:/Ibm/Xeena/lib/Vrml97ToX3dNist.jar
+make -i testConversions
+make[1]: Entering directory `/cygdrive/c/www.web3d.org/TaskGroups/x3d/translation/Vrml97ToX3dNist'
+cd test; pwd; ../../Vrml97ToX3dNist.bat TestObject.wrl TestObjectResult.x3d
+/cygdrive/c/www.web3d.org/TaskGroups/x3d/translation/Vrml97ToX3dNist/test
+CLASSPATH=/www.web3D.org/TaskGroups/x3d/translation/Vrml97ToX3dNist.jar
+
+c:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\test>java iicm.vrml.vrml2x3d.vrml2x3d TestObject.wrl TestObjectResult.x3d 
+****Vrml2 to X3d Translator, Version 0.1***
+Translating Vrml2 file TestObject.wrl to x3d file TestObjectResult.x3d
+
+[.wrl line 4] <!--Bill Angel <wtangel@shell.cais.net> -->
+[.wrl line 24] <!--######### -->
+<!--End of Code -->
+*** Parsing time (ms): 100
+=== writing x3d data  ===
+=== finished ===
+dir TestObject.wrl TestObjectResult.x3d
+ Volume in drive C has no label.
+ Volume Serial Number is 74DD-0759
+
+ Directory of c:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\test
+
+10/04/2002  07:35 AM               466 TestObject.wrl
+
+ Directory of c:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\test
+
+04/18/2003  06:34 AM             2,137 TestObjectResult.x3d
+               2 File(s)          2,603 bytes
+               0 Dir(s)   6,274,957,312 bytes free
+cd ..;  pwd;  Vrml97ToX3dNist.bat 'examples\HelloWorld.wrl' 'Vrml97ToX3dNist\test\HelloWorldToX3d.x3d'
+/cygdrive/c/www.web3d.org/TaskGroups/x3d/translation
+CLASSPATH=/www.web3D.org/TaskGroups/x3d/translation/Vrml97ToX3dNist.jar
+
+c:\www.web3d.org\TaskGroups\x3d\translation>java iicm.vrml.vrml2x3d.vrml2x3d examples\HelloWorld.wrl Vrml97ToX3dNist\test\HelloWorldToX3d.x3d 
+****Vrml2 to X3d Translator, Version 0.1***
+Translating Vrml2 file examples\HelloWorld.wrl to x3d file Vrml97ToX3dNist\test\HelloWorldToX3d.x3d
+
+[.wrl line 19] <!-- X3D-to-VRML-97 XSL translation autogenerated by X3dToVrml97.xsl -->
+<!-- http://www.web3D.org/TaskGroups/x3d/translation/X3dToVrml97.xsl -->
+<!-- [X3D] VRML V3.0 utf8 -->
+<!-- [X3D] profile=Immersive -->
+<!-- [head] -->
+<!-- [meta] filename: HelloWorld.x3d -->
+<!-- [meta] description: Simple X3D example -->
+<!-- [meta] created: 30 October 2000 -->
+<!-- [meta] revised: 6 March 2003 -->
+<!-- [meta] author: Don Brutzman -->
+<!-- [meta] url: http://www.web3d.org/TaskGroups/x3d/translation/examples/HelloWorld.x3d -->
+<!-- [meta] generator: X3D-Edit, http://www.web3d.org/TaskGroups/x3d/translation/README.X3D-Edit.html -->
+<!-- [Scene] -->
+<!-- Example scene to illustrate X3D tags and attributes. -->
+*** Parsing time (ms): 100
+=== writing x3d data  ===
+=== finished ===
+dir examples\HelloWorld.wrl Vrml97ToX3dNist\test\HelloWorldToX3d.x3d
+ Volume in drive C has no label.
+ Volume Serial Number is 74DD-0759
+
+ Directory of c:\www.web3d.org\TaskGroups\x3d\translation\examples
+
+04/15/2003  10:43 PM             1,478 HelloWorld.wrl
+               1 File(s)          1,478 bytes
+
+ Directory of c:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\test
+
+04/18/2003  06:34 AM             2,441 HelloWorldToX3d.x3d
+               1 File(s)          2,441 bytes
+               0 Dir(s)   6,274,957,312 bytes free
+cd ..;  pwd;  Vrml97ToX3dNist.bat 'examples\HelloWorld.wrl' 'Vrml97ToX3dNist\test\HelloWorldToX3d.x3d'
+/cygdrive/c/www.web3d.org/TaskGroups/x3d/translation
+CLASSPATH=/www.web3D.org/TaskGroups/x3d/translation/Vrml97ToX3dNist.jar
+
+c:\www.web3d.org\TaskGroups\x3d\translation>java iicm.vrml.vrml2x3d.vrml2x3d examples\HelloWorld.wrl Vrml97ToX3dNist\test\HelloWorldToX3d.x3d 
+****Vrml2 to X3d Translator, Version 0.1***
+Translating Vrml2 file examples\HelloWorld.wrl to x3d file Vrml97ToX3dNist\test\HelloWorldToX3d.x3d
+
+[.wrl line 19] <!-- X3D-to-VRML-97 XSL translation autogenerated by X3dToVrml97.xsl -->
+<!-- http://www.web3D.org/TaskGroups/x3d/translation/X3dToVrml97.xsl -->
+<!-- [X3D] VRML V3.0 utf8 -->
+<!-- [X3D] profile=Immersive -->
+<!-- [head] -->
+<!-- [meta] filename: HelloWorld.x3d -->
+<!-- [meta] description: Simple X3D example -->
+<!-- [meta] created: 30 October 2000 -->
+<!-- [meta] revised: 6 March 2003 -->
+<!-- [meta] author: Don Brutzman -->
+<!-- [meta] url: http://www.web3d.org/TaskGroups/x3d/translation/examples/HelloWorld.x3d -->
+<!-- [meta] generator: X3D-Edit, http://www.web3d.org/TaskGroups/x3d/translation/README.X3D-Edit.html -->
+<!-- [Scene] -->
+<!-- Example scene to illustrate X3D tags and attributes. -->
+*** Parsing time (ms): 100
+=== writing x3d data  ===
+=== finished ===
+dir examples\HelloWorld.wrl Vrml97ToX3dNist\test\HelloWorldToX3d.x3d
+ Volume in drive C has no label.
+ Volume Serial Number is 74DD-0759
+
+ Directory of c:\www.web3d.org\TaskGroups\x3d\translation\examples
+
+04/15/2003  10:43 PM             1,478 HelloWorld.wrl
+               1 File(s)          1,478 bytes
+
+ Directory of c:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\test
+
+04/18/2003  06:34 AM             2,441 HelloWorldToX3d.x3d
+               1 File(s)          2,441 bytes
+               0 Dir(s)   6,274,957,312 bytes free
+cd ..;  pwd;  Vrml97ToX3dNist.bat 'examples\Vrml2.0Sourcebook\Chapter31-Prototypes\Figure31.7DonutExternalPrototype.wrl'	'Vrml97ToX3dNist\test\Figure31.7DonutExternalPrototype.x3d'
+/cygdrive/c/www.web3d.org/TaskGroups/x3d/translation
+CLASSPATH=/www.web3D.org/TaskGroups/x3d/translation/Vrml97ToX3dNist.jar
+
+c:\www.web3d.org\TaskGroups\x3d\translation>java iicm.vrml.vrml2x3d.vrml2x3d examples\Vrml2.0Sourcebook\Chapter31-Prototypes\Figure31.7DonutExternalPrototype.wrl Vrml97ToX3dNist\test\Figure31.7DonutExternalPrototype.x3d 
+****Vrml2 to X3d Translator, Version 0.1***
+Translating Vrml2 file examples\Vrml2.0Sourcebook\Chapter31-Prototypes\Figure31.7DonutExternalPrototype.wrl to x3d file Vrml97ToX3dNist\test\Figure31.7DonutExternalPrototype.x3d
+
+[.wrl line 20] <!-- X3D-to-VRML-97 XSL translation autogenerated by X3dToVrml97.xsl -->
+<!-- http://www.web3D.org/TaskGroups/x3d/translation/X3dToVrml97.xsl -->
+<!-- [X3D] VRML V3.0 utf8 -->
+<!-- [X3D] profile=Immersive -->
+<!-- [head] -->
+<!-- [meta] filename: Figure31.7DonutExternalPrototype.x3d -->
+<!-- [meta] author: Figure 31.7, The VRML 2.0 Sourcebook, Copyright [1997] By Andrea L. Ames, David R. Nadeau, and John L. Moreland -->
+<!-- [meta] translator: Don Brutzman -->
+<!-- [meta] created: 22 November 2000 -->
+<!-- [meta] revised: 17 February 2003 -->
+<!-- [meta] description: A donut shape built using the Donut geometry node and the LightOak appearance node. Also see Figures 30.5 and 31.6. -->
+<!-- [meta] warning: fails silently in Cortona, cause unknown -->
+<!-- [meta] url: http://www.web3d.org/TaskGroups/x3d/translation/examples/Vrml2.0Sourcebook/Chapter31-Prototypes/Figure31.7DonutExternalPrototype.x3d -->
+<!-- [meta] generator: X3D-Edit, http://www.web3d.org/TaskGroups/x3d/translation/README.X3D-Edit.html -->
+<!-- [Scene] -->
+[.wrl line 52] <!-- Donut instances from prototypes -->
+[.wrl line 72] <!-- Hmmm, what size donut do you really want? -->
+[.wrl line 99] <!--## Hint: need TouchSensor 'description' provided as user hint -->
+*** Parsing time (ms): 120
+=== writing x3d data  ===
+=== finished ===
+dir examples\Vrml2.0Sourcebook\Chapter31-Prototypes\Figure31.7DonutExternalPrototype.wrl Vrml97ToX3dNist\test\Figure31.7DonutExternalPrototype.x3d
+ Volume in drive C has no label.
+ Volume Serial Number is 74DD-0759
+
+ Directory of c:\www.web3d.org\TaskGroups\x3d\translation\examples\Vrml2.0Sourcebook\Chapter31-Prototypes
+
+04/15/2003  11:20 PM             3,577 Figure31.7DonutExternalPrototype.wrl
+               1 File(s)          3,577 bytes
+
+ Directory of c:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\test
+
+04/18/2003  06:34 AM             5,438 Figure31.7DonutExternalPrototype.x3d
+               1 File(s)          5,438 bytes
+               0 Dir(s)   6,274,957,312 bytes free
+cd ..;  pwd;  Vrml97ToX3dNist.bat 'examples\Vrml2.0Sourcebook\Chapter31-Prototypes\Figure31.9SpinGroupPrototype.wrl'		'Vrml97ToX3dNist\test\Figure31.9SpinGroupPrototypeToX3d.x3d'
+/cygdrive/c/www.web3d.org/TaskGroups/x3d/translation
+CLASSPATH=/www.web3D.org/TaskGroups/x3d/translation/Vrml97ToX3dNist.jar
+
+c:\www.web3d.org\TaskGroups\x3d\translation>java iicm.vrml.vrml2x3d.vrml2x3d examples\Vrml2.0Sourcebook\Chapter31-Prototypes\Figure31.9SpinGroupPrototype.wrl Vrml97ToX3dNist\test\Figure31.9SpinGroupPrototypeToX3d.x3d 
+****Vrml2 to X3d Translator, Version 0.1***
+Translating Vrml2 file examples\Vrml2.0Sourcebook\Chapter31-Prototypes\Figure31.9SpinGroupPrototype.wrl to x3d file Vrml97ToX3dNist\test\Figure31.9SpinGroupPrototypeToX3d.x3d
+
+[.wrl line 19] <!-- X3D-to-VRML-97 XSL translation autogenerated by X3dToVrml97.xsl -->
+<!-- http://www.web3D.org/TaskGroups/x3d/translation/X3dToVrml97.xsl -->
+<!-- [X3D] VRML V3.0 utf8 -->
+<!-- [X3D] profile=Immersive -->
+<!-- [head] -->
+<!-- [meta] filename: Figure31.9SpinGroupPrototype.x3d -->
+<!-- [meta] author: Figure 31.9, The VRML 2.0 Sourcebook, Copyright [1997] By Andrea L. Ames, David R. Nadeau, and John L. Moreland -->
+<!-- [meta] translator: Don Brutzman -->
+<!-- [meta] created: 24 October 2000 -->
+<!-- [meta] revised: 28 December 2002 -->
+<!-- [meta] description: A SpinGroup node type used to automatically spin a group of three boxes. Click on blue crossbar to activate second SpinGroup. -->
+<!-- [meta] url: http://www.web3d.org/TaskGroups/x3d/translation/examples/Vrml2.0Sourcebook/Chapter31-Prototypes/Figure31.9SpinGroupPrototype.x3d -->
+<!-- [meta] generator: X3D-Edit, http://www.web3d.org/TaskGroups/x3d/translation/README.X3D-Edit.html -->
+<!-- [Scene] -->
+[.wrl line 51] <!-- Create an instance -->
+[.wrl line 79] <!--## Hint: need TouchSensor 'description' provided as user hint -->
+VRMLparser. Error: ROUTE: Field (set_startTime) is not an eventIn at line 93
+*** Parsing time (ms): 130
+=== writing x3d data  ===
+=== finished ===
+dir examples\Vrml2.0Sourcebook\Chapter31-Prototypes\Figure31.9SpinGroupPrototype.wrl Vrml97ToX3dNist\test\Figure31.9SpinGroupPrototypeToX3d.x3d
+ Volume in drive C has no label.
+ Volume Serial Number is 74DD-0759
+
+ Directory of c:\www.web3d.org\TaskGroups\x3d\translation\examples\Vrml2.0Sourcebook\Chapter31-Prototypes
+
+04/16/2003  09:22 AM             2,585 Figure31.9SpinGroupPrototype.wrl
+               1 File(s)          2,585 bytes
+
+ Directory of c:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\test
+
+04/18/2003  06:34 AM             3,844 Figure31.9SpinGroupPrototypeToX3d.x3d
+               1 File(s)          3,844 bytes
+               0 Dir(s)   6,274,957,312 bytes free
+cd ..;  pwd;  Vrml97ToX3dNist.bat 'examples\KelpForestExhibit\shark2.1.wrl'		'Vrml97ToX3dNist\test\shark2.1.x3d'
+/cygdrive/c/www.web3d.org/TaskGroups/x3d/translation
+CLASSPATH=/www.web3D.org/TaskGroups/x3d/translation/Vrml97ToX3dNist.jar
+
+c:\www.web3d.org\TaskGroups\x3d\translation>java iicm.vrml.vrml2x3d.vrml2x3d examples\KelpForestExhibit\shark2.1.wrl Vrml97ToX3dNist\test\shark2.1.x3d 
+****Vrml2 to X3d Translator, Version 0.1***
+Translating Vrml2 file examples\KelpForestExhibit\shark2.1.wrl to x3d file Vrml97ToX3dNist\test\shark2.1.x3d
+
+*** Parsing time (ms): 200
+=== writing x3d data  ===
+=== finished ===
+dir examples\KelpForestExhibit\shark2.1.wrl Vrml97ToX3dNist\test\shark2.1.x3d
+ Volume in drive C has no label.
+ Volume Serial Number is 74DD-0759
+
+ Directory of c:\www.web3d.org\TaskGroups\x3d\translation\examples\KelpForestExhibit
+
+12/21/2002  02:07 AM           339,295 shark2.1.wrl
+               1 File(s)        339,295 bytes
+
+ Directory of c:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\test
+
+04/18/2003  06:34 AM           254,810 shark2.1.x3d
+               1 File(s)        254,810 bytes
+               0 Dir(s)   6,274,957,312 bytes free
+cd ..;  pwd;  Vrml97ToX3dNist.bat 'examples\GeoSpatial\A1_GeoElevationGrid.wrl'		'Vrml97ToX3dNist\test\A1_GeoElevationGrid.x3d'
+/cygdrive/c/www.web3d.org/TaskGroups/x3d/translation
+CLASSPATH=/www.web3D.org/TaskGroups/x3d/translation/Vrml97ToX3dNist.jar
+
+c:\www.web3d.org\TaskGroups\x3d\translation>java iicm.vrml.vrml2x3d.vrml2x3d examples\GeoSpatial\A1_GeoElevationGrid.wrl Vrml97ToX3dNist\test\A1_GeoElevationGrid.x3d 
+****Vrml2 to X3d Translator, Version 0.1***
+Translating Vrml2 file examples\GeoSpatial\A1_GeoElevationGrid.wrl to x3d file Vrml97ToX3dNist\test\A1_GeoElevationGrid.x3d
+
+[.wrl line 20] <!-- X3D-to-VRML-97 XSL translation autogenerated by X3dToVrml97.xsl -->
+<!-- http://www.web3D.org/TaskGroups/x3d/translation/X3dToVrml97.xsl -->
+<!-- [X3D] VRML V3.0 utf8 -->
+<!-- [X3D] profile=Immersive -->
+<!-- [head] -->
+<!-- [meta] filename: A1_GeoElevationGrid.x3d -->
+<!-- [meta] author: Martin Reddy SRI, original example -->
+<!-- [meta] author: Don Brutzman NPS, X3D encoding -->
+<!-- [meta] created: 26 June 2000 -->
+<!-- [meta] revised: 10 April 2003 -->
+<!-- [meta] warning: under revision, not matching spec example. Trying to get Background aligned. -->
+<!-- [meta] description: Specification example shows the use of the GeoElevationGrid and the GeoViewpoint nodes. A flat grid is mapped to the full extent of Earth latitude and longitude. -->
+<!-- [meta] reference: http://www.geovrml.org/1.0/doc/examples.html -->
+<!-- [meta] VRML 97 encoding: http://www.geovrml.org/1.0/doc/examples/exagearth.wrl -->
+<!-- [meta] url: http://www.web3d.org/TaskGroups/x3d/translation/examples/GeoSpatial/A1_GeoElevationGrid.x3d -->
+<!-- [meta] generator: X3D-Edit, http://www.web3d.org/TaskGroups/x3d/translation/README.X3D-Edit.html -->
+[.wrl line 22] <!-- NULL -->
+[.wrl line 23] <!-- [ "GD" "WE" ] -->
+[.wrl line 24] <!-- "0 0 0" -->
+[.wrl line 25] <!-- 0 -->
+[.wrl line 26] <!-- "1.0" -->
+[.wrl line 27] <!-- 0 -->
+[.wrl line 28] <!-- "1.0" -->
+[.wrl line 29] <!-- 1.0 -->
+[.wrl line 30] <!-- [] -->
+[.wrl line 33] <!-- NULL -->
+[.wrl line 34] <!-- NULL -->
+[.wrl line 35] <!-- NULL -->
+[.wrl line 36] <!-- TRUE -->
+[.wrl line 37] <!-- TRUE -->
+[.wrl line 38] <!-- TRUE -->
+[.wrl line 39] <!-- 0 -->
+[.wrl line 40] <!-- TRUE -->
+[.wrl line 48] <!-- NULL -->
+[.wrl line 49] <!-- [ "GD" "WE" ] -->
+[.wrl line 50] <!-- "" -->
+[.wrl line 53] <!-- [] -->
+[.wrl line 61] <!-- [ "GD" "WE" ] -->
+[.wrl line 62] <!-- "" -->
+[.wrl line 63] <!-- FALSE -->
+[.wrl line 71] <!-- NULL -->
+[.wrl line 72] <!-- ["GD" "WE"] -->
+[.wrl line 73] <!-- "0 0 100000" -->
+[.wrl line 74] <!-- 0 0 1 0 -->
+[.wrl line 75] <!-- 0.785398 -->
+[.wrl line 76] <!-- TRUE -->
+[.wrl line 77] <!-- ["EXAMINE","ANY"] -->
+[.wrl line 78] <!-- TRUE -->
+[.wrl line 79] <!-- "" -->
+[.wrl line 80] <!-- 1.0 -->
+[.wrl line 94] <!-- [Scene] -->
+<!-- This scene shows example GeoSpatial node relationships in a scene graph. -->
+*** Parsing time (ms): 141
+=== writing x3d data  ===
+=== finished ===
+dir examples\GeoSpatial\A1_GeoElevationGrid.wrl Vrml97ToX3dNist\test\A1_GeoElevationGrid.x3d
+ Volume in drive C has no label.
+ Volume Serial Number is 74DD-0759
+
+ Directory of c:\www.web3d.org\TaskGroups\x3d\translation\examples\GeoSpatial
+
+04/15/2003  10:48 PM             5,417 A1_GeoElevationGrid.wrl
+               1 File(s)          5,417 bytes
+
+ Directory of c:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\test
+
+04/18/2003  06:34 AM             3,448 A1_GeoElevationGrid.x3d
+               1 File(s)          3,448 bytes
+               0 Dir(s)   6,274,957,312 bytes free
+make[1]: Leaving directory `/cygdrive/c/www.web3d.org/TaskGroups/x3d/translation/Vrml97ToX3dNist'
+done.

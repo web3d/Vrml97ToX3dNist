@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "http://www.web3d.org/specifications/x3d-3.0.dtd"
+                     "file:///www.web3d.org/TaskGroups/x3d/translation/x3d-3.0.dtd">
+<!--Warning:  transitional DOCTYPE in source .x3d file-->
+<X3D profile="Immersive">
+  <head>
+    <meta content="TouchSensorIsOverEvent.x3d" name="filename"/>
+    <meta content="Xeena VRML importer" name="translator"/>
+    <meta content="23 February 2005" name="imported"/>
+    <meta content="23 February 2005" name="modified"/>
+    <meta
+      content="X3D-Edit, http://www.web3D.org/TaskGroups/x3d/translation/README.X3D-Edit.html" name="generator"/>
+    <meta content="Vrml97ToX3dNist, http://ovrt.nist.gov/v2_x3d.html" name="generator"/>
+  </head>
+  <Scene>
+    <Group>
+      <Shape>
+        <Appearance>
+          <Material DEF="MAT" diffuseColor="0 0 1"/>
+        </Appearance>
+        <Box/>
+      </Shape>
+      <TouchSensor DEF="TS"/>
+    </Group>
+    <Script DEF="SC" url="&quot;SAIExample1.class&quot; ">
+      <field accessType="inputOnly" name="isOver" type="SFBool"/>
+      <field accessType="outputOnly" name="diffuseColor_changed" type="SFColor"/>
+    </Script>
+    <ROUTE fromField="isOver" fromNode="TS" toField="isOver" toNode="SC"/>
+    <ROUTE fromField="diffuseColor_changed" fromNode="SC"
+      toField="set_diffuseColor" toNode="MAT"/>
+  </Scene>
+</X3D>

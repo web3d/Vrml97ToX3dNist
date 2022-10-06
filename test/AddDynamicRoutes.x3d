@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Warning:  transitional DOCTYPE in source .x3d file -->
+<!DOCTYPE X3D PUBLIC "http://www.web3d.org/specifications/x3d-3.0.dtd" "file:///www.web3d.org/TaskGroups/x3d/translation/x3d-3.0.dtd">
+<X3D profile="Full">
+ <head>
+   <meta name="filename" content="AddDynamicRoutes.x3d"/>
+   <meta name="description" content="*enter description here, short-sentence summaries preferred*"/>
+   <meta name="creator" content="*enter name of original author here*"/>
+   <meta name="translator" content="*if manually translating VRML-to-X3D, enter name of person translating here*"/>
+   <meta name="created" content="*enter date of initial version here*"/>
+   <meta name="translated" content="17 February 2005"/>
+   <meta name="modified"    content="17 February 2005"/>
+   <meta name="version" content="*enter version here*"/>
+   <meta name="reference" content="*enter reference citation or relative/online url here*"/>
+   <meta name="reference" content="*enter additional url/bibliographic reference information here*"/>
+   <meta name="rights" content="*enter copyright information here* Example:  Copyright (c) Web3D Consortium Inc. 2002"/>
+   <meta name="drawing" content="*enter drawing filename/url here*"/>
+   <meta name="image" content="*enter image filename/url here*"/>
+   <meta name="MovingImage"content="*enter movie filename/url here*"/>
+   <meta name="photo" content="*enter photo filename/url here*"/>
+   <meta name="subject" content="*enter keywords here*"/>
+   <meta name="url" content="http://*enter online url address for this file here*/AddDynamicRoutes.x3d"/>
+   <meta name="generator" content="Vrml97ToX3dNist, http://ovrt.nist.gov/v2_x3d.html"/>
+ </head>
+ <Scene>
+  <PROFILE />
+  <Script DEF="SC" url="&quot;SAIExample4.class&quot;">
+    <field name="touchTime" type="SFTime" accessType="inputOnly"/>
+  </Script>
+ </Scene>
+</X3D>

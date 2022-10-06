@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Warning:  transitional DOCTYPE in source .x3d file -->
+<!DOCTYPE X3D PUBLIC "http://www.web3d.org/specifications/x3d-3.0.dtd" "file:///www.web3d.org/TaskGroups/x3d/translation/x3d-3.0.dtd">
+<X3D version="3.1" profile="Full">
+ <head>
+   <meta name="title" content="test\NewShapeToX3D.x3d"/>
+   <meta name="description" content="*enter description here, short-sentence summaries preferred*"/>
+   <meta name="creator" content="*enter name of original author here*"/>
+   <meta name="translator" content="*if manually translating VRML-to-X3D, enter name of person translating here*"/>
+   <meta name="created" content="*enter date of initial version here*"/>
+   <meta name="translated" content="03 December 2011"/>
+   <meta name="modified"    content="03 December 2011"/>
+   <meta name="version" content="*enter version here*"/>
+   <meta name="reference" content="*enter reference citation or relative/online url here*"/>
+   <meta name="reference" content="*enter additional url/bibliographic reference information here*"/>
+   <meta name="requires" content="*enter reference resource here if required to support function, delivery, or coherence of content*"/>
+   <meta name="rights" content="*enter copyright information here* Example:  Copyright (c) Web3D Consortium Inc. 2006"/>
+   <meta name="drawing" content="*enter drawing filename/url here*"/>
+   <meta name="image" content="*enter image filename/url here*"/>
+   <meta name="MovingImage" content="*enter movie filename/url here*"/>
+   <meta name="photo" content="*enter photo filename/url here*"/>
+   <meta name="subject" content="*enter subject keywords here*"/>
+   <meta name="accessRights" content="*enter permission statements or url here*"/>
+   <meta name="warning" content="*insert any known warnings, bugs or errors here*"/>
+   <meta name="identifier" content="http://*enter online url address for this file here*/test\NewShapeToX3D.x3d"/>
+   <meta name="generator" content="Vrml97ToX3dNist, http://ovrt.nist.gov/v2_x3d.html"/>
+   <meta name="license" content="../../license.html"/>
+ </head>
+ <Scene>
+  <WorldInfo  info='"original scene:  NewShape.wrl"'/>
+  <NavigationInfo  type='"EXAMINE" "ANY"'/>
+  <ProtoDeclare name="NewShape">
+    <ProtoInterface>
+      <field  name="newRadius" type="SFFloat" value="2.0" accessType="initializeOnly"/>
+      <field  name="newHeight" type="SFFloat" value="1.0" accessType="initializeOnly"/>
+      <field  name="InitialAppearance" type="SFNode" accessType="initializeOnly">
+      <Appearance >
+          <Material  diffuseColor="1.0 0.0 0.0"/>
+      </Appearance>
+      </field>
+    </ProtoInterface>
+    <ProtoBody>
+          <Group >
+              <Transform  translation="2.0 1.0 0.0">
+                  <Shape  DEF="ConstrainedShape" >
+                      <IS>
+                        <connect nodeField="appearance" protoField="InitialAppearance"/>
+                      </IS>
+                      <Cylinder  DEF="ConstrainedCylinder" >
+                          <IS>
+                            <connect nodeField="radius" protoField="newRadius"/>
+                            <connect nodeField="height" protoField="newHeight"/>
+                          </IS>
+                      </Cylinder>
+                  </Shape>
+              </Transform>
+              <Transform  translation="-2.0 1.0 0.0">
+                  <Shape  DEF="ConstrainedShape1" >
+                      <IS>
+                        <connect nodeField="appearance" protoField="InitialAppearance"/>
+                      </IS>
+                      <Cylinder  DEF="ConstrainedCylinder1" >
+                          <IS>
+                            <connect nodeField="radius" protoField="newRadius"/>
+                            <connect nodeField="height" protoField="newHeight"/>
+                          </IS>
+                      </Cylinder>
+                  </Shape>
+              </Transform>
+              <Transform  translation="0.0 -2.0 0.0">
+                  <Shape >
+                      <IS>
+                        <connect nodeField="appearance" protoField="InitialAppearance"/>
+                      </IS>
+                      <Text  string='"Test success:" "green cylinders"'>
+                          <FontStyle  justify='"MIDDLE" "MIDDLE"'/>
+                      </Text>
+                  </Shape>
+              </Transform>
+          </Group>
+    </ProtoBody>
+  </ProtoDeclare>
+  <Switch  DEF="Null1" >
+  </Switch>
+  <ProtoInstance name="NewShape" DEF="A">
+    <fieldValue name="newHeight" value="2.0"/>
+    <fieldValue name="newRadius" value="1.0"/>
+    <fieldValue name="InitialAppearance">
+      <Appearance >
+          <Material  diffuseColor="0.0 1.0 0.0"/>
+      </Appearance>
+    </fieldValue>
+  </ProtoInstance>
+  <Group  DEF="Null2" >
+  </Group>
+ </Scene>
+</X3D>

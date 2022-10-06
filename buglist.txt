@@ -1,0 +1,32 @@
+========== Open =========
+
+Xeena import (via DOM) - IS/connect fixed in command line version, but not in X3D-Edit DOM version...
+	976, C:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\javasrc\iicm\vrml\pw\Node.java
+	2947..2955, C:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\javasrc\iicm\vrml\pw\SceneTraverser.java
+
+XML Comments
+	190..198, C:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\javasrc\iicm\vrml\pw\StrTokenizer.java
+	needs to be added to internal data structures, currently comments are thrown away during VRML parsing.
+	Workaround:  copy and insert comments from console.
+
+========== Fixed =========
+
+Collision node collide field - renamed to enabled field.
+
+Xeena import (via DOM) - proto interface, body.
+	triggered by lines
+	351..354, C:\Ibm\Xeena\src\com\ibm\hrl\xmleditor\extension\vrml\VrmlImporter.java)
+	60..70, C:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\javasrc\iicm\vrml\pw\SceneTraverser.java
+	52..55, C:\www.web3d.org\TaskGro                                                                                                        s\x3d\translation\Vrml97ToX3dNist\javasrc\iicm\vrml\pw\Traverser.java
+	82, C:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\javasrc\iicm\vrml\pw\Node.java
+		abstract public void traverse (Traverser t);
+	59..62, C:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\javasrc\iicm\vrml\pw\Traverser.java
+		public void traverse (Traverser t)
+		{
+		   t.tProtoNode (this);
+		}
+	142, C:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\javasrc\iicm\vrml\pw\Traverser.java
+		abstract protected void tProtoNode (ProtoNode n);
+	183..235 , C:\www.web3d.org\TaskGroups\x3d\translation\Vrml97ToX3dNist\javasrc\iicm\vrml\pw\Traverser.java
+	fixed 25 August 2003
+
